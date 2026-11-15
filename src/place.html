@@ -35,12 +35,12 @@
 
 <main id="top">
 
-  <section class="place-hero">
-    <img class="hero-art" src="../../img/{{img}}" alt="" fetchpriority="high">
+  <section class="place-hero{{hero_class}}">
+{{hero_img}}
     <div class="place-hero-scrim" aria-hidden="true"></div>
     <div class="place-hero-text">
       <nav class="crumbs" aria-label="Breadcrumb">
-        <a href="../">{{ui.home}}</a><span aria-hidden="true">/</span><a href="../#destinations" data-i18n="dest.title">地域から探す</a>
+        <a href="../">{{ui.home}}</a><span aria-hidden="true">/</span><a href="../#{{anchor}}">{{crumb}}</a>
       </nav>
       <p class="kicker">{{area}}</p>
       <h1>{{name}}</h1>
@@ -54,7 +54,7 @@
 
   <section class="section place-section">
     <div class="section-head">
-      <h2>{{ui.highlights}}</h2>
+      <h2>{{list_heading}}</h2>
     </div>
     <ol class="spots">
 {{highlights}}
@@ -65,35 +65,23 @@
     <div class="section-head">
       <h2>{{ui.info}}</h2>
     </div>
-    <dl class="facts">
-      <div><dt>{{ui.season}}</dt><dd>{{season}}</dd></div>
-      <div><dt>{{ui.access}}</dt><dd>{{access}}</dd></div>
-      <div><dt>{{ui.stay}}</dt><dd>{{stay}}</dd></div>
-    </dl>
+{{facts}}
     <aside class="tip-box">
       <h3>{{ui.tip}}</h3>
       <p>{{tip}}</p>
     </aside>
   </section>
 
-  <section class="section place-section">
-    <div class="section-head">
-      <h2>{{ui.official}}</h2>
-      <p>{{ui.official_note}}</p>
-    </div>
-    <ul class="official">
-{{links}}
-    </ul>
-  </section>
+{{links_section}}
 
   <section class="section place-section">
     <div class="section-head">
-      <h2>{{ui.others}}</h2>
+      <h2>{{others_heading}}</h2>
     </div>
     <div class="others">
 {{others}}
     </div>
-    <p class="back"><a class="button button-ghost" href="../#destinations">← {{ui.back}}</a></p>
+    <p class="back"><a class="button button-ghost" href="../#{{anchor}}">← {{crumb}}</a></p>
   </section>
 
 </main>

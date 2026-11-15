@@ -1,0 +1,166 @@
+{
+  "_ui": {
+    "itinerary": "Itinéraire",
+    "points": "L'essentiel",
+    "wear": "Comment s'habiller",
+    "transport": "Se déplacer",
+    "more": "À découvrir aussi"
+  },
+  "spring": {
+    "h": [
+      ["Mont Yoshino (Nara)", "Quelque 30 000 cerisiers fleurissent tour à tour, du pied de la montagne jusqu'au sommet. À voir de début à mi-avril."],
+      ["Parc de Hirosaki (Aomori)", "Réputé pour les cerisiers qui entourent le château de Hirosaki et pour les « radeaux de fleurs », ces pétales tombés qui recouvrent les douves. À voir vers la fin avril."],
+      ["Rivière Meguro (Tokyo)", "Environ 800 cerisiers bordent près de 4 km de berges en plein cœur de la ville. À voir de fin mars à début avril."],
+      ["Parc Hitachi Seaside (Ibaraki)", "De mi-avril à début mai, les némophiles teintent de bleu toute une colline. Un paysage de printemps à découvrir après les cerisiers."]
+    ],
+    "wear": "Matins et soirées sont frais : une veste légère et plusieurs couches sont utiles. Certains jours de mars, un manteau d'hiver reste nécessaire.",
+    "tip": "La pleine floraison dure environ une semaine. Si vos dates sont fixées, choisissez une destination plus au sud pour une floraison précoce, ou plus au nord pour une floraison tardive. Tout le pays est très fréquenté pendant les congés de fin avril à début mai."
+  },
+  "summer": {
+    "h": [
+      ["Kamikochi (Nagano)", "Une station de montagne à environ 1 500 m d'altitude. Son cœur est le pont Kappa, avec vue sur les eaux limpides de la rivière Azusa et les sommets de Hotaka. Les voitures particulières sont interdites : on s'y rend en bus ou en taxi."],
+      ["Festival Nebuta d'Aomori", "Chaque année, du 2 au 7 août, d'immenses chars illuminés défilent la nuit dans la ville. Les danseurs qui bondissent au rythme des cris font partie du spectacle."],
+      ["Furano (Hokkaido)", "Les champs de lavande se parent de violet de mi-juillet à fin juillet. Ces collines fleuries balayées par la brise sont l'image de l'été à Hokkaido."],
+      ["Feu d'artifice du festival de Nagaoka (Niigata)", "L'un des grands feux d'artifice du Japon, tiré les 2 et 3 août sur les berges de la rivière Shinano. Les places doivent être achetées à l'avance."]
+    ],
+    "wear": "Vêtements respirants, chapeau et crème solaire. Une couche légère est utile dans les intérieurs climatisés. Sur les hauts plateaux, il fait frais le matin et le soir.",
+    "tip": "Sur Honshu, la saison des pluies dure de juin à la mi-juillet environ. Il fait ensuite très chaud : buvez souvent et prévoyez des visites en intérieur pendant la journée. Attention aux typhons en août et septembre."
+  },
+  "autumn": {
+    "h": [
+      ["Nikko (Tochigi)", "Le lac Chuzenji et la route Irohazaka sont à leur apogée de mi-octobre à fin octobre, les abords du sanctuaire Toshogu début novembre. Les routes sont encombrées : partez tôt."],
+      ["Tofuku-ji (Kyoto)", "Depuis le pont Tsutenkyo, on domine un vallon entièrement embrasé par les érables. À voir fin novembre."],
+      ["Gorge d'Oirase (Aomori)", "On marche le long du torrent sous des arbres qui virent au jaune et au rouge. À voir de mi-octobre à fin octobre."],
+      ["Korankei (Aichi)", "Environ 4 000 érables colorent cette gorge, le site d'automne le plus réputé de la région du Tokai. À voir de mi-novembre à fin novembre, avec illuminations le soir."]
+    ],
+    "wear": "Chemise à manches longues en octobre ; veste ou pull en novembre. Il fait plus froid en montagne qu'en ville.",
+    "tip": "Les couleurs d'automne progressent du nord au sud et des sommets vers les vallées. Visitez les sites réputés en semaine ou tôt le matin. En novembre, les hébergements à Kyoto sont difficiles à trouver : réservez tôt."
+  },
+  "winter": {
+    "h": [
+      ["Shirakawa-go (Gifu)", "Un village classé au patrimoine mondial, aux fermes à toit de chaume très pentu, enfoui sous la neige. Les illuminations organisées certains jours de janvier et février se font sur réservation."],
+      ["Niseko (Hokkaido)", "De décembre à mars, des skieurs viennent du monde entier pour sa poudreuse légère et sèche."],
+      ["Ginzan Onsen (Yamagata)", "La neige s'amoncelle dans la rue bordée d'auberges en bois et, au crépuscule, quand s'allument les réverbères à gaz, on se croirait dans un autre monde."],
+      ["Parc aux singes de Jigokudani (Nagano)", "L'endroit où observer des macaques japonais sauvages se baigner dans une source chaude. Comptez environ 30 minutes de marche sur un sentier forestier enneigé depuis l'entrée."]
+    ],
+    "wear": "Manteau chaud, gants et chaussures antidérapantes. Les intérieurs sont bien chauffés : préférez des couches faciles à enlever.",
+    "tip": "De nombreux commerces et sites ferment du 29 décembre au 3 janvier environ. La neige peut retarder trains et avions : gardez de la marge dans votre programme."
+  },
+  "golden-route": {
+    "intro": "L'itinéraire classique vers l'ouest depuis Tokyo, le long de la ligne Shinkansen. Avec peu de correspondances, il est facile à organiser même pour un premier voyage. Repartir de l'aéroport international du Kansai évite de revenir à Tokyo.",
+    "h": [
+      ["Tokyo (jours 1 à 3)", "Explorez des quartiers anciens et modernes : Asakusa, Shibuya, les abords du Palais impérial. Gardez un programme léger le jour de l'arrivée, décalage horaire oblige."],
+      ["Hakone et le mont Fuji (jour 4)", "Environ 1 h 25 de Shinjuku à Hakone-Yumoto par l'express Romancecar. Nuit dans une auberge thermale ; par temps clair, le mont Fuji se dresse au-delà du lac Ashi."],
+      ["Kyoto (jours 5 et 6)", "Environ 2 h depuis Odawara en Shinkansen. Kinkaku-ji, Fushimi Inari, Higashiyama : découvrez la ville quartier par quartier."],
+      ["Nara (après-midi du jour 6)", "Environ 45 minutes en train depuis Kyoto. Une demi-journée pour voir le Grand Bouddha du Todai-ji et les daims du parc de Nara."],
+      ["Osaka (jour 7)", "Environ 30 minutes en train depuis Kyoto. Goûtez à tout le long de Dotonbori, puis repartez de l'aéroport international du Kansai."]
+    ],
+    "when": "Fin mars et avril pour les cerisiers, octobre et novembre pour les feuillages d'automne sont les périodes les plus prisées. L'été est chaud et humide.",
+    "transport": "Tout l'itinéraire se fait en Shinkansen et en trains locaux. Comparez le prix du Japan Rail Pass avec celui des billets à l'unité avant de vous décider.",
+    "tip": "Expédiez vos gros bagages à l'hôtel suivant par service de livraison et voyagez léger (livraison le lendemain en général). Pour monter dans le Shinkansen avec des bagages surdimensionnés, il faut réserver sa place à l'avance."
+  },
+  "hokkaido-drive": {
+    "intro": "Cap à l'est depuis Sapporo pour un road trip où le paysage passe des champs de fleurs aux lacs, puis à la forêt primaire. La distance totale est d'environ 600 km. Rendre la voiture à l'aéroport de Memanbetsu évite de refaire le chemin en sens inverse.",
+    "h": [
+      ["Sapporo (jour 1)", "Visite de la ville, ramen au miso et fruits de mer. Récupérez la voiture de location le lendemain matin."],
+      ["Furano et Biei (jours 2 et 3)", "Environ 2 h de route depuis Sapporo. Prenez le temps de parcourir les champs de lavande, les collines en patchwork et l'Étang bleu."],
+      ["Lac Akan (jour 4)", "Une longue étape d'environ 4 h depuis Biei. Nuit dans la station thermale au bord du lac, connu pour ses boules d'algues marimo, et rencontre avec la culture aïnoue."],
+      ["Shiretoko (jours 5 et 6)", "Environ 2 h 30 depuis le lac Akan. Découvrez une nature intacte lors d'une promenade aux cinq lacs de Shiretoko ou d'une sortie en bateau. L'aéroport de Memanbetsu est à environ 2 h d'Utoro."]
+    ],
+    "when": "Les fleurs sont à leur apogée de fin juin à août (lavande en juillet). Les couleurs d'automne vont de fin septembre à octobre.",
+    "transport": "En voiture de location. On roule à gauche au Japon. Pour conduire avec un permis étranger, il faut un permis de conduire international ; pour certains pays, c'est une traduction officielle en japonais du permis qui est exigée.",
+    "tip": "À l'aube et au crépuscule, cerfs d'Ezo et renards roux peuvent surgir sur la route. Ne nourrissez pas les animaux sauvages. Les stations-service sont rares sur certains tronçons : faites le plein tôt."
+  },
+  "setouchi-islands": {
+    "intro": "Un itinéraire vers l'est depuis Hiroshima, le long de la mer intérieure de Seto. Chaque jour apporte autre chose : une promenade dans l'histoire, un sanctuaire sur la mer, des ponts franchis à vélo et de l'art sur une île.",
+    "h": [
+      ["Hiroshima (jour 1)", "Visite du parc du Mémorial de la Paix et du Dôme de la Bombe atomique, pour une journée de réflexion sur la paix. Le soir, goûtez l'okonomiyaki à la mode de Hiroshima."],
+      ["Miyajima (jour 2)", "Environ 1 h depuis la gare de Hiroshima en train puis en ferry. Découvrez le sanctuaire d'Itsukushima et son grand torii, puis montez en téléphérique au mont Misen pour la vue."],
+      ["Onomichi et la Shimanami Kaido (jour 3)", "Environ 1 h 30 en train de Hiroshima à Onomichi. Flânez dans cette ville de pentes et de temples, puis traversez les ponts à vélo jusqu'aux îles."],
+      ["Naoshima (jours 4 et 5)", "Rejoignez le port d'Uno via Okayama, puis comptez environ 20 minutes de ferry. Visitez les musées et les œuvres en plein air, et passez la nuit sur l'île."]
+    ],
+    "when": "Avril-mai et octobre-novembre, quand le climat est doux.",
+    "transport": "Une combinaison de trains, de ferries et de vélos de location.",
+    "tip": "De nombreux musées de Naoshima ferment le lundi, et certains exigent une réservation. À Miyajima, le paysage change avec la marée : consultez les horaires des marées avant de partir."
+  },
+  "food": {
+    "intro": "La cuisine japonaise varie beaucoup selon les régions et les saisons. En 2013, le washoku, la cuisine traditionnelle japonaise, a été inscrit au patrimoine culturel immatériel de l'UNESCO. Les découvertes ne se limitent pas aux grandes tables : boîtes-repas vendues en gare, rayons alimentaires des grands magasins et supérettes en réservent aussi.",
+    "h": [
+      ["Sushi", "Du sushi sur tapis roulant, abordable, au comptoir où le chef façonne chaque pièce devant vous. Pour les restaurants à comptoir, il est d'usage de réserver et de commander « omakase », au choix du chef."],
+      ["Ramen", "Au miso à Sapporo, au bouillon d'os de porc à Hakata, à la sauce soja à Tokyo : le goût change selon la région. Dans de nombreux établissements, on achète un ticket-repas au distributeur à l'entrée."],
+      ["Izakaya", "Des bistrots où l'on partage de petits plats autour d'un verre. Une petite entrée appelée « otoshi » est parfois servie en guise de couvert."],
+      ["Spécialités régionales et marchés", "Takoyaki à Osaka, huîtres à Hiroshima, bols de riz aux fruits de mer à Hokkaido. Les marchés locaux permettent de goûter une région dès le matin."]
+    ],
+    "tip": "Pas de pourboire. La cuisine de rue se déguste devant l'échoppe ou dans un espace prévu, et non en marchant. En cas d'allergie ou de régime végétarien, prévenez le restaurant à l'avance : même les plats de légumes peuvent contenir du bouillon de poisson."
+  },
+  "culture": {
+    "intro": "Châteaux, sanctuaires, temples et fêtes se transmettent encore au fil de la vie quotidienne. Ne pas se contenter de regarder, mais connaître les usages et participer à une activité rend le voyage plus marquant.",
+    "h": [
+      ["Châteaux", "Douze châteaux du Japon conservent un donjon datant de l'époque d'Edo ou antérieur. Les plus connus sont le château de Himeji, classé au patrimoine mondial et surnommé le « château du Héron blanc », et le château de Matsumoto au donjon noir."],
+      ["Sanctuaires et temples", "Au sanctuaire, on s'incline une fois devant le torii, on se rince les mains et la bouche au bassin, puis on prie : deux saluts, deux claquements de mains, un salut. Au temple, on ne frappe pas dans ses mains ; on joint les mains en silence."],
+      ["Fêtes", "Le Gion Matsuri de Kyoto en juillet, le festival Nebuta d'Aomori en août, le festival de Takayama au printemps et à l'automne. Chars et sanctuaires portatifs défilent dans les rues."],
+      ["Activités", "Cérémonie du thé, habillage en kimono, méditation zen ou nuit dans un temple. Au mont Koya, on peut assister à l'office du matin."]
+    ],
+    "tip": "On se déchausse avant de monter dans un bâtiment. Respectez les panneaux interdisant les photos et veillez à ne pas déranger les personnes qui prient."
+  },
+  "pop-culture": {
+    "intro": "Anime, mangas et jeux vidéo sont devenus l'une des grandes raisons de venir au Japon. On les croise partout en ville, des rues de boutiques spécialisées aux musées et à l'art numérique.",
+    "h": [
+      ["Akihabara (Tokyo)", "Né comme quartier de l'électronique, il regorge aujourd'hui de boutiques spécialisées dans l'anime, les jeux et les figurines."],
+      ["Nakano Broadway (Tokyo)", "Un immeuble rempli de petites boutiques de mangas et de livres d'anime d'occasion et d'objets de collection rares."],
+      ["Musée Ghibli de Mitaka (Tokyo)", "Un musée qui plonge dans l'univers du studio Ghibli. L'entrée se fait sur réservation à date et heure fixes ; aucun billet n'est vendu sur place le jour même."],
+      ["Musées teamLab (Tokyo)", "Un art numérique immersif qui vous enveloppe de lumière et d'images en mouvement. Ils sont très prisés : mieux vaut réserver."]
+    ],
+    "tip": "Les sites les plus prisés affichent complet plus d'un mois à l'avance. Vérifiez si les photos sont autorisées dans les boutiques et, sur les lieux qui ont inspiré vos œuvres favorites, respectez la vie des habitants."
+  },
+  "onsen": {
+    "intro": "Pays de volcans, le Japon compte près de 3 000 stations thermales. Flâner dans une ville d'onsen et passer une nuit dans une auberge à profiter des bains et du dîner est un moment à part dans un voyage.",
+    "h": [
+      ["Kusatsu Onsen (Gunma)", "Au centre de la ville fume le Yubatake, le « champ d'eau chaude », et l'on peut assister au yumomi, tradition qui consiste à refroidir l'eau en la brassant avec des planches de bois."],
+      ["Beppu Onsen (Oita)", "C'est la station qui produit le plus d'eau thermale au Japon. Le circuit des « Enfers de Beppu », des sources aux couleurs vives, est très apprécié."],
+      ["Kinosaki Onsen (Hyogo)", "Une ville thermale où l'on se promène en yukata et en sandales de bois le long d'une rivière bordée de saules, d'un bain public à l'autre : il y en a sept."],
+      ["Parc aux singes de Jigokudani (Nagano)", "On y observe de près des singes sauvages qui se baignent. Pour les bains destinés aux humains, rendez-vous aux onsen voisins de Shibu et de Yudanaka."]
+    ],
+    "tip": "Lavez-vous avant d'entrer dans le bain et ne trempez pas votre serviette dans l'eau. Attachez les cheveux longs. Certains établissements refusent les personnes tatouées : renseignez-vous à l'avance sur les bains privatifs ou les lieux qui les acceptent."
+  },
+  "transport": {
+    "intro": "Le réseau ferroviaire japonais est dense et ponctuel. Le principe : le Shinkansen entre les villes, le train et le métro à l'intérieur.",
+    "h": [
+      ["Shinkansen", "Tokyo – Shin-Osaka en 2 h 30 environ pour les trains les plus rapides. Les places réservées s'achètent aux guichets et aux distributeurs des gares ou en ligne."],
+      ["Cartes IC", "Les cartes Suica, ICOCA et autres fonctionnent dans les grandes villes de tout le pays et peuvent aussi être ajoutées à un smartphone."],
+      ["Japan Rail Pass", "Un forfait réservé aux visiteurs de courte durée, qui donne un accès illimité aux lignes JR. Un supplément est demandé pour les trains Nozomi et Mizuho."],
+      ["Bus longue distance et vols intérieurs", "Les bus de nuit sont pratiques pour limiter les frais. Pour Hokkaido, Kyushu et Okinawa, l'avion est plus rapide."]
+    ],
+    "tip": "En semaine, l'heure de pointe du matin va de 7 h 30 à 9 h 30 environ. Évitez de vous déplacer avec de gros bagages à ce moment-là."
+  },
+  "money": {
+    "intro": "La monnaie est le yen. Le paiement sans espèces se généralise, mais il reste des situations où seul le liquide est accepté. Mieux vaut avoir les deux.",
+    "h": [
+      ["Espèces", "Elles peuvent être nécessaires dans les petits restaurants, pour les droits d'entrée des temples et sanctuaires, et dans les bus en région."],
+      ["Distributeurs", "Les distributeurs des supérettes et des bureaux de poste permettent de retirer des yens avec une carte émise à l'étranger."],
+      ["Cartes et paiement mobile", "Acceptés presque partout dans les hôtels, les grands magasins et les chaînes. De plus en plus de commerces et de transports proposent le paiement sans contact."],
+      ["Détaxe", "Les visiteurs étrangers bénéficient d'une exonération de la taxe sur la consommation. Depuis novembre 2026, on paie le prix TTC à l'achat, puis on est remboursé après vérification au départ. Renseignez-vous en magasin sur la procédure."]
+    ],
+    "tip": "Le pourboire n'est pas d'usage. Au moment de payer, posez l'argent ou la carte sur le petit plateau placé à la caisse."
+  },
+  "manners": {
+    "intro": "Pas de règles compliquées. L'idée de base est l'attention aux autres : ne pas gêner ceux qui vous entourent. En cas de doute, faites simplement comme les gens autour de vous.",
+    "h": [
+      ["Dans le train et le bus", "Évitez les appels téléphoniques et parlez à voix basse. Portez votre sac à dos devant vous et faites la queue pour monter."],
+      ["Se déchausser", "On retire ses chaussures à l'entrée des ryokan, des temples et des maisons. Dans les pièces à tatamis, on enlève aussi les chaussons."],
+      ["Déchets", "Il n'y a presque pas de poubelles dans les rues. Emportez un petit sac et rapportez vos déchets à votre hébergement."],
+      ["Onsen et bains publics", "Lavez-vous avant d'entrer dans le bain et ne trempez pas votre serviette dans l'eau. Les photos sont interdites dans les espaces de bain."]
+    ],
+    "tip": "Ne photographiez pas les personnes ni les propriétés privées sans autorisation. Dans le quartier de Gion, à Kyoto, certaines ruelles privées sont interdites d'accès et de photographie."
+  },
+  "internet": {
+    "intro": "Cartes, itinéraires, traduction : en voyage, le smartphone est votre meilleur allié. Choisissez votre solution de connexion avant le départ pour qu'elle fonctionne dès l'arrivée.",
+    "h": [
+      ["eSIM", "Achetez-la et configurez-la en ligne avant le départ : elle fonctionne dès l'atterrissage. Vérifiez que votre appareil est compatible."],
+      ["Wi-Fi de poche", "Un seul boîtier connecte plusieurs appareils, ce qui convient aux groupes et aux familles. On peut le récupérer et le rendre à l'aéroport."],
+      ["Wi-Fi gratuit", "Disponible dans les aéroports, les grandes gares, les hôtels et les cafés. Le signal peut être faible en montagne et sur les îles éloignées."],
+      ["Électricité", "La tension est de 100 V et les prises sont de type A, à deux broches plates. Vérifiez si vous avez besoin d'un adaptateur."]
+    ],
+    "tip": "Enregistrez les données des applications de cartes et de traduction pour un usage hors ligne, par précaution. Photos et cartes vident vite la batterie : prévoyez aussi une batterie externe."
+  }
+}

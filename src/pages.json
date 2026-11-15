@@ -1,0 +1,122 @@
+{
+  "_comment": "Detail pages other than destinations. Text keys (name, lead, ...) point at the top page's data-i18n keys; the longer text lives in src/pages/<lang>.json under each slug.",
+  "groups": {
+    "season": { "anchor": "seasons", "crumb": "season.title", "list": "highlights" },
+    "route":  { "anchor": "routes",  "crumb": "route.title",  "list": "itinerary" },
+    "more":   { "anchor": "more",    "crumb": "more.title",   "list": "points" },
+    "tips":   { "anchor": "tips",    "crumb": "tips.title",   "list": "points" }
+  },
+  "pages": [
+    {
+      "slug": "spring", "group": "season", "img": "hero.jpg", "pos": "0% 0%", "season": "spring",
+      "name": "s1.tab", "kicker": "season.title", "lead": "s1.title", "intro": "s1.text",
+      "facts": [["season.when", "s1.when"], ["season.spots", "s1.spots"]],
+      "links": [
+        { "ja": ["桜開花・満開情報（tenki.jp）", "https://tenki.jp/sakura/"], "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "summer", "group": "season", "img": "hokkaido.jpg", "season": "summer",
+      "name": "s2.tab", "kicker": "season.title", "lead": "s2.title", "intro": "s2.text",
+      "facts": [["season.when", "s2.when"], ["season.spots", "s2.spots"]],
+      "links": [
+        { "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "autumn", "group": "season", "img": "kyoto.jpg", "season": "autumn",
+      "name": "s3.tab", "kicker": "season.title", "lead": "s3.title", "intro": "s3.text",
+      "facts": [["season.when", "s3.when"], ["season.spots", "s3.spots"]],
+      "links": [
+        { "ja": ["紅葉見頃情報（tenki.jp）", "https://tenki.jp/kouyou/"], "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "winter", "group": "season", "img": "hero.jpg", "pos": "100% 0%", "season": "winter",
+      "name": "s4.tab", "kicker": "season.title", "lead": "s4.title", "intro": "s4.text",
+      "facts": [["season.when", "s4.when"], ["season.spots", "s4.spots"]],
+      "links": [
+        { "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "golden-route", "group": "route", "img": "fuji.jpg",
+      "name": "r1.name", "kicker": "r1.days", "lead": "r1.text",
+      "links": [
+        { "ja": ["京都観光Navi（京都市公式）", "https://ja.kyoto.travel/"], "intl": ["Kyoto City Official Travel Guide", "https://kyoto.travel/en/"] },
+        { "ja": ["富士の国やまなし観光ネット", "https://www.yamanashi-kankou.jp/"], "intl": ["JAPAN RAIL PASS", "https://japanrailpass.net/en/"] }
+      ]
+    },
+    {
+      "slug": "hokkaido-drive", "group": "route", "img": "hokkaido.jpg",
+      "name": "r2.name", "kicker": "r2.days", "lead": "r2.text",
+      "links": [
+        { "ja": ["HOKKAIDO LOVE!（北海道観光公式）", "https://www.visit-hokkaido.jp/"], "intl": ["HOKKAIDO LOVE! Official Tourism Website", "https://www.visit-hokkaido.jp/en/"] }
+      ]
+    },
+    {
+      "slug": "setouchi-islands", "group": "route", "img": "setouchi.jpg",
+      "name": "r3.name", "kicker": "r3.days", "lead": "r3.text",
+      "links": [
+        { "ja": ["ベネッセアートサイト直島", "https://benesse-artsite.jp/"], "intl": ["Benesse Art Site Naoshima", "https://benesse-artsite.jp/en/"] },
+        { "ja": ["SHIMAP（しまなみ海道観光マップ）", "https://shimanami-cycle.or.jp/"], "intl": ["Shimanami Kaido Cycling (SHIMAP)", "https://shimanami-cycle.or.jp/cycling/en/"] }
+      ]
+    },
+    {
+      "slug": "food", "group": "more", "img": "collage.jpg", "pos": "85% 90%",
+      "name": "m1.title", "kicker": "more.title", "lead": "m1.text",
+      "links": [
+        { "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "culture", "group": "more", "img": "collage.jpg", "pos": "15% 35%",
+      "name": "m2.title", "kicker": "more.title", "lead": "m2.text",
+      "links": [
+        { "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "pop-culture", "group": "more", "img": "collage.jpg", "pos": "60% 55%",
+      "name": "m3.title", "kicker": "more.title", "lead": "m3.text",
+      "links": [
+        { "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "onsen", "group": "more", "img": "tohoku.jpg",
+      "name": "m4.title", "kicker": "more.title", "lead": "m4.text",
+      "links": [
+        { "ja": ["日本温泉協会", "https://www.spa.or.jp/"], "intl": ["Japan National Tourism Organization (JNTO)", "https://www.japan.travel/en/"] }
+      ]
+    },
+    {
+      "slug": "transport", "group": "tips",
+      "name": "t1.title", "kicker": "tips.title", "lead": "t1.text",
+      "links": [
+        { "ja": ["JAPAN RAIL PASS（公式）", "https://japanrailpass.net/"], "intl": ["JAPAN RAIL PASS", "https://japanrailpass.net/en/"] }
+      ]
+    },
+    {
+      "slug": "money", "group": "tips",
+      "name": "t2.title", "kicker": "tips.title", "lead": "t2.text",
+      "links": [
+        { "intl": ["JNTO: Plan your trip", "https://www.japan.travel/en/plan/"] }
+      ]
+    },
+    {
+      "slug": "manners", "group": "tips",
+      "name": "t3.title", "kicker": "tips.title", "lead": "t3.text",
+      "links": [
+        { "intl": ["JNTO: Plan your trip", "https://www.japan.travel/en/plan/"] }
+      ]
+    },
+    {
+      "slug": "internet", "group": "tips",
+      "name": "t4.title", "kicker": "tips.title", "lead": "t4.text",
+      "links": [
+        { "intl": ["JNTO: Plan your trip", "https://www.japan.travel/en/plan/"] }
+      ]
+    }
+  ]
+}

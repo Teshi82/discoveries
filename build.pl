@@ -1,13 +1,15 @@
 #!/usr/bin/perl
 # Builds the static site, one copy per language:
 #   docs/<lang>/index.html            the top page
-#   docs/<lang>/<place>/index.html    one detail page per destination
+#   docs/<lang>/<page>/index.html     detail pages (destinations, seasons, routes, culture, travel basics)
 #
-#   Source:  src/template.html  (top page, with Japanese text and data-i18n keys)
-#            src/i18n.json      (top-page translations for the other languages)
-#            src/place.html     (detail-page layout, with {{placeholders}})
-#            src/places.json    (detail-page text for every language, and official links)
-#   Output:  docs/              (the folder GitHub Pages serves)
+#   Source:  src/template.html      top page, with Japanese text and data-i18n keys
+#            src/i18n.json          top-page translations for the other languages
+#            src/place.html         detail-page layout, with {{placeholders}}
+#            src/places.json        destination pages: text for every language, and official links
+#            src/pages.json         the other detail pages: which top-page text and links each one uses
+#            src/pages/<lang>.json  the other detail pages: longer text, one file per language
+#   Output:  docs/                  the folder GitHub Pages serves
 #
 # Usage, from Git Bash in this folder:
 #   perl build.pl                                  # relative links (local preview)
@@ -51,17 +53,33 @@ sub esc {
   $s =~ s/&/&amp;/g; $s =~ s/</&lt;/g; $s =~ s/>/&gt;/g; $s =~ s/"/&quot;/g;
   return $s;
 }
+sub json_file { JSON::PP->new->utf8->decode(slurp("$dir/src/$_[0]", ':raw')) }
 
 my $tpl       = slurp("$dir/src/template.html", ':encoding(UTF-8)');
 my $place_tpl = slurp("$dir/src/place.html", ':encoding(UTF-8)');
-my $dict      = JSON::PP->new->utf8->decode(slurp("$dir/src/i18n.json", ':raw'));
-my $pdata     = JSON::PP->new->utf8->decode(slurp("$dir/src/places.json", ':raw'));
+my $dict      = json_file('i18n.json');
+my $pdata     = json_file('places.json');
+my $odata     = json_file('pages.json');
 my @places    = @{ $pdata->{places} };
+my @others    = @{ $odata->{pages} };
 
 # $depth = how many folders below docs/ the page sits (1 = top page, 2 = detail page)
 sub page_url {
   my ($slug, $page, $depth) = @_;
   return $base ne '' ? "$base/$slug/$page" : ('../' x $depth) . "$slug/$page";
+}
+
+# Text of a top-page data-i18n key, as plain text: Japanese from the template, the rest from i18n.json
+sub label {
+  my ($key, $code) = @_;
+  if ($code eq 'ja') {
+    my ($v) = $tpl =~ m{\sdata-i18n="\Q$key\E"[^>]*>(.*?)<}s;
+    defined $v or die "No data-i18n=\"$key\" in src/template.html";
+    return $v;
+  }
+  my $v = $dict->{$code}{$key};
+  defined $v or die "Missing translation: $code / $key";
+  return $v;
 }
 
 # Replaces data-i18n text with the translation for the language, and fills in the <head>.
@@ -107,12 +125,69 @@ sub localize {
   return $html;
 }
 
-# Name and area of a destination: Japanese lives in places.json, the rest in i18n.json (d1.name ...)
-sub place_label {
-  my ($p, $code, $field) = @_;
-  my $v = $code eq 'ja' ? $p->{ja}{$field} : $dict->{$code}{"$p->{key}.$field"};
-  defined $v or die "Missing $field for $p->{slug} / $code";
-  return $v;
+# Builds one detail page from plain-text fields (escaped here) and returns the finished HTML.
+#   slug, img (optional), pos (optional image focus), anchor + crumb (top-page section it belongs to),
+#   kicker, name, lead, intro (optional), list_heading, items [[title, text]...],
+#   facts [[label, text]...], tip, links [[label, url]...], others_heading, others [[slug, img, name]...]
+sub render_detail {
+  my ($l, $ui, $p) = @_;
+  my %v = (slug => $p->{slug}, anchor => $p->{anchor});
+  $v{$_} = esc($p->{$_}) for qw(crumb name lead tip list_heading others_heading);
+  $v{area} = esc($p->{kicker});
+  $v{"ui.$_"} = esc($ui->{$_}) for keys %$ui;
+
+  if ($p->{img}) {
+    my $pos = $p->{pos} ? qq{ style="object-position: $p->{pos}"} : '';
+    $v{hero_class} = '';
+    $v{hero_img}   = qq{    <img class="hero-art" src="../../img/$p->{img}" alt="" fetchpriority="high"$pos>};
+  } else {
+    $v{hero_class} = ' place-hero-plain';
+    $v{hero_img}   = '';
+  }
+
+  $v{intro} = defined $p->{intro} ? esc($p->{intro}) : '';
+
+  $v{highlights} = join("\n", map {
+    "      <li><h3>" . esc($_->[0]) . "</h3><p>" . esc($_->[1]) . "</p></li>"
+  } @{ $p->{items} });
+
+  $v{facts} = @{ $p->{facts} } ? join("\n",
+    qq{    <dl class="facts">},
+    (map { "      <div><dt>" . esc($_->[0]) . "</dt><dd>" . esc($_->[1]) . "</dd></div>" } @{ $p->{facts} }),
+    qq{    </dl>}) : '';
+
+  $v{links_section} = @{ $p->{links} } ? join("\n",
+    qq{  <section class="section place-section">},
+    qq{    <div class="section-head">},
+    qq{      <h2>$v{'ui.official'}</h2>},
+    qq{      <p>$v{'ui.official_note'}</p>},
+    qq{    </div>},
+    qq{    <ul class="official">},
+    (map { qq{      <li><a href="$_->[1]" target="_blank" rel="noopener">} . esc($_->[0]) . qq{<span aria-hidden="true"> ↗</span></a></li>} } @{ $p->{links} }),
+    qq{    </ul>},
+    qq{  </section>}) : '';
+
+  $v{others} = join("\n", map {
+    my ($slug, $img, $name) = @$_;
+    qq{      <a class="other" href="../$slug/">}
+      . ($img ? qq{<img src="../../img/$img" alt="" loading="lazy">} : '')
+      . "<span>" . esc($name) . "</span></a>";
+  } @{ $p->{others} });
+
+  my $html = $place_tpl;
+  $html =~ s{\{\{([\w.]+)\}\}}{ defined $v{$1} ? $v{$1} : die "Unknown placeholder {{$1}} in src/place.html" }ge;
+  # A page with no intro paragraph gets no empty intro section
+  $html =~ s{\s*<section class="section place-intro">\s*<p></p>\s*</section>}{} if $v{intro} eq '';
+
+  my $page = "$p->{slug}/";
+  spit("$dir/docs/$l->[1]/${page}index.html", localize($html, $l, $page, 2, $p->{img} || 'hero.jpg'));
+  return $page;
+}
+
+# The link for this language from a list of { ja: [label, url], intl: [label, url] } (either may be absent)
+sub links_for {
+  my ($links, $code) = @_;
+  return [ grep { defined } map { $code eq 'ja' ? $_->{ja} : $_->{intl} } @{ $links || [] } ];
 }
 
 my @pages;   # every page, for the sitemap
@@ -125,42 +200,52 @@ for my $l (@langs) {
   print "built docs/$slug/index.html\n";
 
   my $ui = $pdata->{ui}{$code} or die "No detail-page labels for $code";
+
+  # Destinations
   for my $p (@places) {
     my $t = $p->{$code} or die "No detail text for $p->{slug} / $code";
-    my %v = (
-      slug => $p->{slug},
-      img  => $p->{img},
-      name => esc(place_label($p, $code, 'name')),
-      area => esc(place_label($p, $code, 'area')),
-    );
-    for my $k (qw(lead intro season access stay tip)) {
-      defined $t->{$k} or die "Missing $k for $p->{slug} / $code";
-      $v{$k} = esc($t->{$k});
-    }
-    $v{"ui.$_"} = esc($ui->{$_}) for keys %$ui;
-
-    $v{highlights} = join("\n", map {
-      "      <li><h3>" . esc($_->[0]) . "</h3><p>" . esc($_->[1]) . "</p></li>"
-    } @{ $t->{h} });
-
-    $v{links} = join("\n", map {
-      my ($label, $href) = @{ $code eq 'ja' ? $_->{ja} : $_->{intl} };
-      qq{      <li><a href="$href" target="_blank" rel="noopener">} . esc($label) . qq{<span aria-hidden="true"> ↗</span></a></li>};
-    } @{ $p->{links} });
-
-    $v{others} = join("\n", map {
-      qq{      <a class="other" href="../$_->{slug}/"><img src="../../img/$_->{img}" alt="" loading="lazy"><span>}
-        . esc(place_label($_, $code, 'name')) . qq{</span></a>};
-    } grep { $_->{slug} ne $p->{slug} } @places);
-
-    my $html = $place_tpl;
-    $html =~ s{\{\{([\w.]+)\}\}}{ defined $v{$1} ? $v{$1} : die "Unknown placeholder {{$1}} in src/place.html" }ge;
-
-    my $page = "$p->{slug}/";
-    spit("$dir/docs/$slug/${page}index.html", localize($html, $l, $page, 2, $p->{img}));
-    push @pages, [$slug, $page];
+    defined $t->{$_} or die "Missing $_ for $p->{slug} / $code" for qw(lead intro season access stay tip h);
+    push @pages, [$slug, render_detail($l, $ui, {
+      slug => $p->{slug}, img => $p->{img},
+      anchor => 'destinations', crumb => label('dest.title', $code),
+      kicker => label("$p->{key}.area", $code), name => label("$p->{key}.name", $code),
+      lead => $t->{lead}, intro => $t->{intro},
+      list_heading => $ui->{highlights}, items => $t->{h},
+      facts => [[$ui->{season}, $t->{season}], [$ui->{access}, $t->{access}], [$ui->{stay}, $t->{stay}]],
+      tip => $t->{tip}, links => links_for($p->{links}, $code),
+      others_heading => $ui->{others},
+      others => [ map { [$_->{slug}, $_->{img}, label("$_->{key}.name", $code)] } grep { $_->{slug} ne $p->{slug} } @places ],
+    })];
   }
-  print "built docs/$slug/<place>/index.html x " . scalar(@places) . "\n";
+
+  # Seasons, routes, culture, travel basics
+  my $text = json_file("pages/$code.json");
+  my $ui2  = $text->{_ui} or die "No _ui labels in src/pages/$code.json";
+  for my $p (@others) {
+    my $g = $odata->{groups}{ $p->{group} } or die "Unknown group for $p->{slug}";
+    my $t = $text->{ $p->{slug} } or die "No text for $p->{slug} in src/pages/$code.json";
+    defined $t->{$_} or die "Missing $_ for $p->{slug} / $code" for qw(h tip);
+
+    my @facts = map { [label($_->[0], $code), label($_->[1], $code)] } @{ $p->{facts} || [] };
+    push @facts, [$ui2->{wear}, $t->{wear}]           if defined $t->{wear};
+    push @facts, [$ui->{season}, $t->{when}]          if defined $t->{when};
+    push @facts, [$ui2->{transport}, $t->{transport}] if defined $t->{transport};
+
+    push @pages, [$slug, render_detail($l, $ui, {
+      slug => $p->{slug}, img => $p->{img}, pos => $p->{pos},
+      anchor => $g->{anchor}, crumb => label($g->{crumb}, $code),
+      kicker => label($p->{kicker}, $code), name => label($p->{name}, $code),
+      lead => label($p->{lead}, $code),
+      intro => $p->{intro} ? label($p->{intro}, $code) : $t->{intro},
+      list_heading => ($ui2->{ $g->{list} } // $ui->{ $g->{list} } // die "No label for $g->{list} / $code"),
+      items => $t->{h}, facts => \@facts,
+      tip => $t->{tip}, links => links_for($p->{links}, $code),
+      others_heading => $ui2->{more},
+      others => [ map { [$_->{slug}, $_->{img}, label($_->{name}, $code)] }
+                  grep { $_->{group} eq $p->{group} && $_->{slug} ne $p->{slug} } @others ],
+    })];
+  }
+  print "built docs/$slug/<page>/index.html x " . (@places + @others) . "\n";
 }
 
 if ($base ne '') {
