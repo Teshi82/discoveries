@@ -1,7 +1,7 @@
 // 言語メニューと季節タブ。
 // 各言語のページは build.pl が docs/<言語>/index.html として生成します。
 (function () {
-  var STORAGE_KEY = "irodori-lang";
+  var STORAGE_KEY = "discoveries-lang";
   var select = document.getElementById("lang-select");
 
   // 言語メニュー: 選んだ言語のページへ移動し、次回のために記憶する

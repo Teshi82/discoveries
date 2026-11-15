@@ -81,7 +81,7 @@ for my $l (@langs) {
   push @head, qq{<link rel="alternate" hreflang="$_->[0]" href="} . $url->($_->[1]) . qq{">} for @langs;
   push @head, qq{<link rel="alternate" hreflang="x-default" href="$root_url">};
   push @head, qq{<meta property="og:type" content="website">};
-  push @head, qq{<meta property="og:site_name" content="Irodori Japan">};
+  push @head, qq{<meta property="og:site_name" content="DISCOVERIES">};
   push @head, qq{<meta property="og:title" content="$title">};
   push @head, qq{<meta property="og:description" content="$desc">};
   push @head, qq{<meta property="og:locale" content="$locale">};

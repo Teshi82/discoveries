@@ -1,6 +1,6 @@
 {
   "en": {
-    "meta.title": "Irodori Japan — Scenic Journeys Through the Seasons",
+    "meta.title": "DISCOVERIES — Scenic Journeys Through the Seasons",
     "meta.desc": "A travel guide to Japan's most beautiful landscapes, by region and by season.",
     "nav.dest": "Regions", "nav.seasons": "Seasons", "nav.routes": "Itineraries", "nav.tips": "Essentials",
     "hero.kicker": "Discover Japan",
@@ -71,7 +71,7 @@
   },
 
   "zh-Hans": {
-    "meta.title": "Irodori Japan — 四季描绘的日本绝景",
+    "meta.title": "DISCOVERIES — 四季描绘的日本绝景",
     "meta.desc": "按地区与季节，带您领略日本最美的风景。",
     "nav.dest": "地区", "nav.seasons": "季节", "nav.routes": "推荐行程", "nav.tips": "实用信息",
     "hero.kicker": "发现日本",
@@ -142,7 +142,7 @@
   },
 
   "zh-Hant": {
-    "meta.title": "Irodori Japan — 四季描繪的日本絕景",
+    "meta.title": "DISCOVERIES — 四季描繪的日本絕景",
     "meta.desc": "依地區與季節，帶您領略日本最美的風景。",
     "nav.dest": "地區", "nav.seasons": "季節", "nav.routes": "推薦行程", "nav.tips": "實用資訊",
     "hero.kicker": "發現日本",
@@ -213,7 +213,7 @@
   },
 
   "fr": {
-    "meta.title": "Irodori Japan — Les paysages du Japon au fil des saisons",
+    "meta.title": "DISCOVERIES — Les paysages du Japon au fil des saisons",
     "meta.desc": "Un guide de voyage des plus beaux paysages du Japon, par région et par saison.",
     "nav.dest": "Régions", "nav.seasons": "Saisons", "nav.routes": "Itinéraires", "nav.tips": "Infos pratiques",
     "hero.kicker": "Découvrir le Japon",
@@ -284,7 +284,7 @@
   },
 
   "es": {
-    "meta.title": "Irodori Japan — Paisajes de Japón a través de las estaciones",
+    "meta.title": "DISCOVERIES — Paisajes de Japón a través de las estaciones",
     "meta.desc": "Una guía de viaje por los paisajes más bellos de Japón, por región y por estación.",
     "nav.dest": "Regiones", "nav.seasons": "Estaciones", "nav.routes": "Itinerarios", "nav.tips": "Información práctica",
     "hero.kicker": "Descubre Japón",
