@@ -7,7 +7,11 @@
   // 言語メニュー: 選んだ言語のページへ移動し、次回のために記憶する
   select.addEventListener("change", function () {
     try { localStorage.setItem(STORAGE_KEY, select.value); } catch (e) {}
-    location.href = "../" + select.value.toLowerCase() + "/" + location.hash;
+    // 詳細ページ（docs/<言語>/<地域>/）では、同じ地域の別言語ページへ移動する
+    var html = document.documentElement;
+    var root = html.getAttribute("data-root") || "../";
+    var page = html.getAttribute("data-page") || "";
+    location.href = root + select.value.toLowerCase() + "/" + page + location.hash;
   });
   // ブラウザの「戻る」で戻ってきたとき、メニューの表示を今のページの言語に戻す
   window.addEventListener("pageshow", function () {
@@ -16,6 +20,7 @@
 
   // 季節タブ
   var section = document.getElementById("seasons");
+  if (!section) return;   // 詳細ページには季節タブがない
   var tabs = Array.prototype.slice.call(section.querySelectorAll('[role="tab"]'));
 
   function selectTab(tab, focus) {

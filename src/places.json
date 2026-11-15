@@ -1,0 +1,650 @@
+{
+  "ui": {
+    "ja": {
+      "home": "ホーム",
+      "highlights": "見どころ",
+      "info": "旅のメモ",
+      "season": "ベストシーズン",
+      "access": "アクセス",
+      "stay": "滞在の目安",
+      "tip": "旅のヒント",
+      "official": "公式情報",
+      "official_note": "最新の営業時間・料金・運行状況は、公式サイトでご確認ください。",
+      "others": "ほかの地域を見る",
+      "back": "地域一覧へ戻る"
+    },
+    "en": {
+      "home": "Home",
+      "highlights": "Highlights",
+      "info": "Trip notes",
+      "season": "Best time",
+      "access": "Getting there",
+      "stay": "How long to stay",
+      "tip": "Travel tip",
+      "official": "Official information",
+      "official_note": "Check the official sites for the latest opening hours, fees and transport information.",
+      "others": "More regions",
+      "back": "Back to all regions"
+    },
+    "zh-Hans": {
+      "home": "首页",
+      "highlights": "看点",
+      "info": "旅行备忘",
+      "season": "最佳时期",
+      "access": "交通",
+      "stay": "建议停留",
+      "tip": "旅行小贴士",
+      "official": "官方信息",
+      "official_note": "最新的开放时间、费用和交通运行情况，请以官方网站为准。",
+      "others": "看看其他地区",
+      "back": "返回地区列表"
+    },
+    "zh-Hant": {
+      "home": "首頁",
+      "highlights": "看點",
+      "info": "旅行備忘",
+      "season": "最佳時期",
+      "access": "交通",
+      "stay": "建議停留",
+      "tip": "旅行小提醒",
+      "official": "官方資訊",
+      "official_note": "最新的開放時間、費用與交通營運狀況，請以官方網站為準。",
+      "others": "看看其他地區",
+      "back": "返回地區列表"
+    },
+    "fr": {
+      "home": "Accueil",
+      "highlights": "À voir",
+      "info": "Carnet pratique",
+      "season": "Meilleure période",
+      "access": "Comment s'y rendre",
+      "stay": "Durée conseillée",
+      "tip": "Conseil de voyage",
+      "official": "Informations officielles",
+      "official_note": "Consultez les sites officiels pour les horaires, tarifs et conditions de transport les plus récents.",
+      "others": "Autres régions",
+      "back": "Retour à toutes les régions"
+    },
+    "es": {
+      "home": "Inicio",
+      "highlights": "Qué ver",
+      "info": "Notas de viaje",
+      "season": "Mejor época",
+      "access": "Cómo llegar",
+      "stay": "Cuánto tiempo quedarse",
+      "tip": "Consejo de viaje",
+      "official": "Información oficial",
+      "official_note": "Consulta los sitios oficiales para conocer los horarios, las tarifas y el estado del transporte más recientes.",
+      "others": "Otras regiones",
+      "back": "Volver a todas las regiones"
+    }
+  },
+  "places": [
+    {
+      "slug": "kyoto",
+      "key": "d1",
+      "img": "kyoto.jpg",
+      "links": [
+        { "ja": ["京都観光Navi（京都市公式）", "https://ja.kyoto.travel/"], "intl": ["Kyoto City Official Travel Guide", "https://kyoto.travel/en/"] }
+      ],
+      "ja": {
+        "name": "京都",
+        "area": "関西",
+        "lead": "千年の都を、朝の静けさのなかで歩く。",
+        "intro": "794年から千年以上にわたって都が置かれた京都には、世界遺産の社寺や庭園、町家の続く路地がいまも息づいています。見どころは市内各所に点在しているので、エリアごとに1日ずつあてると無理なく巡れます。",
+        "h": [
+          ["金閣寺", "金箔に覆われた舎利殿が鏡湖池に映る、京都を代表する風景。晴れた日の午前は池の映り込みがひときわ鮮やかです。"],
+          ["伏見稲荷大社", "朱色の鳥居が山の上まで連なる千本鳥居。稲荷山をひと回りすると約2時間、上へ行くほど人が少なくなります。"],
+          ["嵐山", "竹林の小径と、桂川に架かる渡月橋。春の桜と秋の紅葉の時期は山全体が色づきます。"],
+          ["清水寺と東山", "崖にせり出す「清水の舞台」から市街を一望。二年坂・産寧坂の石畳には昔ながらの町並みが続きます。"]
+        ],
+        "season": "桜は3月下旬〜4月上旬、紅葉は11月中旬〜12月上旬。新緑の5月や雪化粧の冬は比較的落ち着いて歩けます。",
+        "access": "東京から新幹線で約2時間15分。関西国際空港からは特急「はるか」で約1時間20分です。",
+        "stay": "2〜3日。奈良や宇治へ足をのばすなら、もう1日。",
+        "tip": "人気の社寺は開門直後の早朝がおすすめ。市バスは混みやすいので、地下鉄や電車と徒歩を組み合わせるとスムーズです。"
+      },
+      "en": {
+        "lead": "Walk the thousand-year capital in the quiet of early morning.",
+        "intro": "Japan's capital for more than a thousand years from 794, Kyoto is still full of World Heritage temples and shrines, gardens, and lanes lined with wooden townhouses. The sights are spread across the city, so giving each district its own day makes for an easy pace.",
+        "h": [
+          ["Kinkaku-ji (Golden Pavilion)", "A pavilion covered in gold leaf, mirrored in its pond: the classic Kyoto view. The reflection is at its sharpest on a clear morning."],
+          ["Fushimi Inari Taisha", "Vermilion torii gates run in tunnels up the mountainside. The full loop of Mt. Inari takes about two hours, and the crowds thin the higher you climb."],
+          ["Arashiyama", "A path through towering bamboo and the Togetsukyo Bridge over the Katsura River. The whole hillside turns colour in cherry blossom and autumn leaf seasons."],
+          ["Kiyomizu-dera and Higashiyama", "Look out over the city from the temple's famous wooden stage on the hillside, then wander the stone-paved lanes of Ninenzaka and Sannenzaka."]
+        ],
+        "season": "Cherry blossoms from late March to early April; autumn leaves from mid-November to early December. Fresh green May and snowy winter days are comparatively calm.",
+        "access": "About 2 hours 15 minutes from Tokyo by Shinkansen. From Kansai International Airport, the Haruka limited express takes about 1 hour 20 minutes.",
+        "stay": "2–3 days. Add another day for Nara or Uji.",
+        "tip": "Visit the popular temples and shrines right at opening time. City buses get crowded, so combining the subway, trains and walking is often smoother."
+      },
+      "zh-Hans": {
+        "lead": "在清晨的宁静中，漫步千年古都。",
+        "intro": "自794年起，京都作为都城长达一千多年，世界遗产的寺社、庭园和町家林立的小巷至今依然充满生机。景点分散在市内各处，按区域每天游览一处，行程会比较从容。",
+        "h": [
+          ["金阁寺", "贴满金箔的舍利殿倒映在镜湖池中，是京都最具代表性的风景。晴天的上午，水中倒影格外清晰。"],
+          ["伏见稻荷大社", "朱红色的鸟居一路延伸到山上，这就是千本鸟居。绕稻荷山一圈约需2小时，越往上游客越少。"],
+          ["岚山", "竹林小径与横跨桂川的渡月桥。春天的樱花和秋天的红叶时节，整座山都染上色彩。"],
+          ["清水寺与东山", "从悬于山崖的“清水舞台”可以眺望市区。二年坂、产宁坂的石板路两旁保留着古老的街景。"]
+        ],
+        "season": "樱花在3月下旬至4月上旬，红叶在11月中旬至12月上旬。新绿的5月和银装素裹的冬季相对清静。",
+        "access": "从东京乘新干线约2小时15分钟。从关西国际机场乘特急“Haruka”约1小时20分钟。",
+        "stay": "2～3天。若想顺道去奈良或宇治，可再加1天。",
+        "tip": "热门寺社建议在清晨刚开门时前往。市营巴士容易拥挤，搭配地铁、电车和步行会更顺畅。"
+      },
+      "zh-Hant": {
+        "lead": "在清晨的寧靜中，漫步千年古都。",
+        "intro": "自794年起，京都作為都城長達一千多年，世界遺產的寺社、庭園與町家林立的巷弄至今依然充滿生氣。景點分散在市內各處，依區域每天遊覽一處，行程會比較從容。",
+        "h": [
+          ["金閣寺", "貼滿金箔的舍利殿倒映在鏡湖池中，是京都最具代表性的風景。晴天的上午，水中倒影格外清晰。"],
+          ["伏見稻荷大社", "朱紅色的鳥居一路延伸到山上，這就是千本鳥居。繞稻荷山一圈約需2小時，越往上遊客越少。"],
+          ["嵐山", "竹林小徑與橫跨桂川的渡月橋。春天的櫻花與秋天的紅葉時節，整座山都染上色彩。"],
+          ["清水寺與東山", "從懸於山崖的「清水舞台」可以眺望市區。二年坂、產寧坂的石板路兩旁保留著古老的街景。"]
+        ],
+        "season": "櫻花在3月下旬至4月上旬，紅葉在11月中旬至12月上旬。新綠的5月與白雪覆蓋的冬季相對清靜。",
+        "access": "從東京搭新幹線約2小時15分鐘。從關西國際機場搭特急「Haruka」約1小時20分鐘。",
+        "stay": "2～3天。若想順道前往奈良或宇治，可再加1天。",
+        "tip": "熱門寺社建議在清晨剛開門時前往。市營巴士容易擁擠，搭配地鐵、電車與步行會更順暢。"
+      },
+      "fr": {
+        "lead": "Parcourir la capitale millénaire dans le calme du petit matin.",
+        "intro": "Capitale du Japon pendant plus de mille ans à partir de 794, Kyoto abrite toujours des temples et sanctuaires classés au patrimoine mondial, des jardins et des ruelles bordées de maisons en bois. Les sites sont dispersés dans la ville : consacrer une journée à chaque quartier permet de voyager sans se presser.",
+        "h": [
+          ["Kinkaku-ji (Pavillon d'or)", "Un pavillon recouvert de feuilles d'or qui se reflète dans son étang : l'image emblématique de Kyoto. Le reflet est le plus net par une matinée claire."],
+          ["Fushimi Inari Taisha", "Des tunnels de torii vermillon grimpent à flanc de montagne. Le tour complet du mont Inari prend environ deux heures, et la foule se dissipe à mesure que l'on monte."],
+          ["Arashiyama", "Un sentier au milieu des bambous géants et le pont Togetsukyo sur la rivière Katsura. Toute la colline se colore à la saison des cerisiers comme à celle des érables."],
+          ["Kiyomizu-dera et Higashiyama", "Depuis la célèbre terrasse en bois du temple, la vue s'étend sur la ville. Flânez ensuite dans les ruelles pavées de Ninenzaka et Sannenzaka."]
+        ],
+        "season": "Cerisiers de fin mars à début avril ; feuillages d'automne de mi-novembre à début décembre. Le mois de mai, tout en verdure, et les journées enneigées d'hiver sont relativement calmes.",
+        "access": "Environ 2 h 15 depuis Tokyo en Shinkansen. Depuis l'aéroport international du Kansai, comptez environ 1 h 20 en express Haruka.",
+        "stay": "2 à 3 jours. Ajoutez une journée pour Nara ou Uji.",
+        "tip": "Visitez les temples et sanctuaires les plus prisés dès l'ouverture. Les bus municipaux sont souvent bondés : mieux vaut combiner métro, train et marche."
+      },
+      "es": {
+        "lead": "Recorre la capital milenaria en la calma de la primera hora de la mañana.",
+        "intro": "Capital de Japón durante más de mil años desde el 794, Kioto conserva templos y santuarios Patrimonio de la Humanidad, jardines y callejuelas de casas de madera. Los lugares de interés están repartidos por la ciudad, así que dedicar un día a cada zona permite recorrerla sin prisas.",
+        "h": [
+          ["Kinkaku-ji (Pabellón Dorado)", "Un pabellón cubierto de pan de oro que se refleja en su estanque: la imagen clásica de Kioto. El reflejo es más nítido en las mañanas despejadas."],
+          ["Fushimi Inari Taisha", "Túneles de torii bermellón que ascienden por la ladera. El recorrido completo del monte Inari lleva unas dos horas, y cuanto más se sube, menos gente hay."],
+          ["Arashiyama", "Un sendero entre bambúes gigantes y el puente Togetsukyo sobre el río Katsura. Toda la ladera cambia de color con los cerezos en flor y con las hojas de otoño."],
+          ["Kiyomizu-dera e Higashiyama", "Contempla la ciudad desde la famosa terraza de madera del templo y pasea después por las calles empedradas de Ninenzaka y Sannenzaka."]
+        ],
+        "season": "Cerezos en flor de finales de marzo a principios de abril; hojas de otoño de mediados de noviembre a principios de diciembre. El verde mes de mayo y los días nevados de invierno son relativamente tranquilos.",
+        "access": "Unas 2 horas y 15 minutos desde Tokio en Shinkansen. Desde el Aeropuerto Internacional de Kansai, el expreso Haruka tarda alrededor de 1 hora y 20 minutos.",
+        "stay": "2 o 3 días. Añade un día más para Nara o Uji.",
+        "tip": "Visita los templos y santuarios más populares justo a la hora de apertura. Los autobuses urbanos se llenan, así que suele ser más cómodo combinar metro, tren y caminatas."
+      }
+    },
+    {
+      "slug": "fuji",
+      "key": "d2",
+      "img": "fuji.jpg",
+      "links": [
+        { "ja": ["富士登山オフィシャルサイト", "https://www.fujisan-climb.jp/"], "intl": ["Official Web Site for Mt. Fuji Climbing", "https://www.fujisan-climb.jp/en/"] },
+        { "ja": ["富士の国やまなし観光ネット", "https://www.yamanashi-kankou.jp/"], "intl": ["Yamanashi Official Travel Guide", "https://www.yamanashi-kankou.jp/english/"] }
+      ],
+      "ja": {
+        "name": "富士山・富士五湖",
+        "area": "山梨・静岡",
+        "lead": "湖に映り、雲をまとう。日本でいちばん高い山を眺める旅。",
+        "intro": "標高3,776mの富士山は、2013年に世界文化遺産に登録されました。北麓に並ぶ富士五湖は、湖越しに山を望む絶好の場所。登らなくても、眺める場所を変えるだけで一日楽しめます。",
+        "h": [
+          ["河口湖", "富士五湖の玄関口。風のない朝には湖面に「逆さ富士」が現れます。北岸の大石公園は花と富士を一緒に眺められる場所です。"],
+          ["新倉山浅間公園", "五重塔と富士山が一枚に収まる展望デッキへは、398段の階段を上ります。桜の季節はとりわけ人気です。"],
+          ["忍野八海", "富士山の雪解け水が長い歳月をかけて湧き出す八つの池。底まで見通せるほど澄んだ水が印象的です。"],
+          ["富士山五合目と登山", "登山道が開くのは例年7月上旬〜9月上旬。通行料や入山規制があるので、計画の前に公式サイトを確認してください。"]
+        ],
+        "season": "山がよく見えるのは空気の澄む11月〜2月。4月は桜、11月上旬〜中旬は紅葉と一緒に眺められます。",
+        "access": "新宿から河口湖まで、高速バスで約1時間45分、特急「富士回遊」で約2時間です。",
+        "stay": "1〜2日。朝の富士を見るなら湖畔に1泊を。",
+        "tip": "雲は午後に出やすいので、早朝がいちばんの狙い目。出発前にライブカメラで山の様子を確かめると安心です。"
+      },
+      "en": {
+        "lead": "Mirrored in lakes, wrapped in cloud: a trip to gaze at Japan's highest mountain.",
+        "intro": "Mt. Fuji, 3,776 m high, was inscribed as a World Cultural Heritage site in 2013. The Fuji Five Lakes along its northern foot are the best places to see it across the water. Even without climbing, simply changing your viewpoint can fill a whole day.",
+        "h": [
+          ["Lake Kawaguchiko", "The gateway to the Fuji Five Lakes. On windless mornings an upside-down Fuji appears on the surface. Oishi Park on the north shore frames the mountain with flowers."],
+          ["Arakurayama Sengen Park", "Climb 398 steps to the observation deck where a five-storied pagoda and Mt. Fuji fit in a single frame. It is especially popular in cherry blossom season."],
+          ["Oshino Hakkai", "Eight ponds fed by Fuji's snowmelt, which takes many years to filter through the ground. The water is clear enough to see right to the bottom."],
+          ["Fuji 5th Station and climbing", "The trails are usually open from early July to early September. Fees and access limits apply, so check the official site before you plan."]
+        ],
+        "season": "The mountain is most often visible in the crisp air of November to February. See it with cherry blossoms in April, or with autumn leaves in early to mid-November.",
+        "access": "From Shinjuku to Kawaguchiko: about 1 hour 45 minutes by highway bus, or about 2 hours on the Fuji Excursion limited express.",
+        "stay": "1–2 days. Stay a night by the lake to catch Fuji in the morning.",
+        "tip": "Clouds tend to build in the afternoon, so early morning is your best chance. Checking a live camera before you set out is reassuring."
+      },
+      "zh-Hans": {
+        "lead": "倒映湖面，云雾缭绕。去看日本最高的山。",
+        "intro": "海拔3,776米的富士山于2013年被列入世界文化遗产。北麓的富士五湖是隔湖远眺富士山的绝佳地点。即使不登山，只要换个观景点，也能玩上一整天。",
+        "h": [
+          ["河口湖", "富士五湖的门户。无风的清晨，湖面上会出现“逆富士”。北岸的大石公园可以同时欣赏花海与富士山。"],
+          ["新仓山浅间公园", "登上398级台阶，就能到达将五重塔与富士山收入同一画面的观景台。樱花季节尤其受欢迎。"],
+          ["忍野八海", "富士山的融雪经过漫长岁月渗透后涌出，形成八个池塘。池水清澈见底，令人印象深刻。"],
+          ["富士山五合目与登山", "登山道通常在7月上旬至9月上旬开放。设有通行费和入山限制，计划前请先确认官方网站。"]
+        ],
+        "season": "空气清澈的11月至次年2月最容易看到富士山。4月可与樱花同框，11月上旬至中旬可与红叶同框。",
+        "access": "从新宿到河口湖，乘高速巴士约1小时45分钟，乘特急“富士回游”约2小时。",
+        "stay": "1～2天。想看清晨的富士山，建议在湖畔住一晚。",
+        "tip": "下午容易起云，清晨是最佳时机。出发前通过实时摄像头确认山的状况会更放心。"
+      },
+      "zh-Hant": {
+        "lead": "倒映湖面，雲霧繚繞。去看日本最高的山。",
+        "intro": "海拔3,776公尺的富士山於2013年登錄為世界文化遺產。北麓的富士五湖是隔湖遠眺富士山的絕佳地點。即使不登山，只要換個觀景點，也能玩上一整天。",
+        "h": [
+          ["河口湖", "富士五湖的門戶。無風的清晨，湖面上會出現「逆富士」。北岸的大石公園可以同時欣賞花海與富士山。"],
+          ["新倉山淺間公園", "登上398級階梯，就能抵達將五重塔與富士山收進同一畫面的觀景台。櫻花季節尤其受歡迎。"],
+          ["忍野八海", "富士山的融雪經過漫長歲月滲透後湧出，形成八座池塘。池水清澈見底，令人印象深刻。"],
+          ["富士山五合目與登山", "登山道通常在7月上旬至9月上旬開放。設有通行費與入山管制，規劃前請先確認官方網站。"]
+        ],
+        "season": "空氣清澈的11月至隔年2月最容易看到富士山。4月可與櫻花同框，11月上旬至中旬可與紅葉同框。",
+        "access": "從新宿到河口湖，搭高速巴士約1小時45分鐘，搭特急「富士回遊」約2小時。",
+        "stay": "1～2天。想看清晨的富士山，建議在湖畔住一晚。",
+        "tip": "下午容易起雲，清晨是最佳時機。出發前透過即時影像確認山的狀況會更安心。"
+      },
+      "fr": {
+        "lead": "Reflété dans les lacs, drapé de nuages : un voyage pour contempler le plus haut sommet du Japon.",
+        "intro": "Le mont Fuji, haut de 3 776 m, a été inscrit au patrimoine culturel mondial en 2013. Les cinq lacs du Fuji, au pied de son versant nord, sont les meilleurs endroits pour l'admirer par-delà l'eau. Même sans l'escalader, changer de point de vue suffit à remplir une journée.",
+        "h": [
+          ["Lac Kawaguchiko", "La porte d'entrée des cinq lacs. Par les matins sans vent, un « Fuji inversé » apparaît à la surface. Sur la rive nord, le parc Oishi associe la montagne aux fleurs."],
+          ["Parc Arakurayama Sengen", "Il faut gravir 398 marches pour atteindre le belvédère où une pagode à cinq étages et le mont Fuji tiennent dans une même image. Très prisé à la saison des cerisiers."],
+          ["Oshino Hakkai", "Huit bassins alimentés par la fonte des neiges du Fuji, filtrée par le sol pendant de longues années. L'eau est si limpide que l'on voit le fond."],
+          ["5e station et ascension", "Les sentiers sont généralement ouverts de début juillet à début septembre. Des droits d'accès et des restrictions s'appliquent : consultez le site officiel avant de planifier."]
+        ],
+        "season": "La montagne est le plus souvent visible dans l'air limpide de novembre à février. On peut l'admirer avec les cerisiers en avril, ou avec les feuillages d'automne de début à mi-novembre.",
+        "access": "De Shinjuku à Kawaguchiko : environ 1 h 45 en bus express, ou environ 2 h avec l'express Fuji Excursion.",
+        "stay": "1 à 2 jours. Passez une nuit au bord du lac pour voir le Fuji au matin.",
+        "tip": "Les nuages se forment souvent l'après-midi : le petit matin est le meilleur moment. Un coup d'œil à une webcam avant de partir permet de vérifier que la montagne est dégagée."
+      },
+      "es": {
+        "lead": "Reflejado en los lagos, envuelto en nubes: un viaje para contemplar la montaña más alta de Japón.",
+        "intro": "El monte Fuji, de 3.776 m de altura, fue inscrito como Patrimonio Cultural de la Humanidad en 2013. Los Cinco Lagos del Fuji, al pie de su ladera norte, son los mejores lugares para verlo al otro lado del agua. Incluso sin subir, basta con cambiar de mirador para llenar un día entero.",
+        "h": [
+          ["Lago Kawaguchiko", "La puerta de entrada a los Cinco Lagos. En las mañanas sin viento aparece un «Fuji invertido» en la superficie. El parque Oishi, en la orilla norte, enmarca la montaña con flores."],
+          ["Parque Arakurayama Sengen", "Hay que subir 398 escalones hasta el mirador donde una pagoda de cinco pisos y el monte Fuji caben en una misma imagen. Es especialmente popular en la época de los cerezos."],
+          ["Oshino Hakkai", "Ocho estanques alimentados por el deshielo del Fuji, que tarda muchos años en filtrarse por el subsuelo. El agua es tan clara que se ve el fondo."],
+          ["Quinta estación y ascenso", "Los senderos suelen abrir de principios de julio a principios de septiembre. Hay tarifas y restricciones de acceso, así que consulta el sitio oficial antes de planificar."]
+        ],
+        "season": "La montaña se ve con más frecuencia en el aire limpio de noviembre a febrero. En abril se contempla con los cerezos en flor, y de principios a mediados de noviembre, con las hojas de otoño.",
+        "access": "De Shinjuku a Kawaguchiko: alrededor de 1 hora y 45 minutos en autobús de autopista, o unas 2 horas en el expreso Fuji Excursion.",
+        "stay": "1 o 2 días. Pasa una noche junto al lago para ver el Fuji por la mañana.",
+        "tip": "Las nubes suelen formarse por la tarde, así que la primera hora de la mañana es la mejor opción. Conviene mirar una cámara en directo antes de salir."
+      }
+    },
+    {
+      "slug": "hokkaido",
+      "key": "d3",
+      "img": "hokkaido.jpg",
+      "links": [
+        { "ja": ["HOKKAIDO LOVE!（北海道観光公式）", "https://www.visit-hokkaido.jp/"], "intl": ["HOKKAIDO LOVE! Official Tourism Website", "https://www.visit-hokkaido.jp/en/"] }
+      ],
+      "ja": {
+        "name": "北海道",
+        "area": "北日本",
+        "lead": "夏は花の丘、冬は粉雪。季節ごとに別の顔を見せる北の大地。",
+        "intro": "日本の面積の約5分の1を占める北海道は、広い空とまっすぐな道、手つかずの自然が魅力です。夏は涼しく、冬はたっぷりと雪が積もります。見どころ同士が離れているので、エリアを絞って計画しましょう。",
+        "h": [
+          ["富良野・美瑛", "7月中旬に見頃を迎えるラベンダー畑と、畑が模様を描く「パッチワークの丘」。美瑛の「青い池」も人気です。"],
+          ["知床", "2005年に世界自然遺産に登録された半島。夏は知床五湖の散策や観光船、冬はオホーツク海の流氷が見られます。"],
+          ["ニセコ", "世界中のスキーヤーが集まるパウダースノーの聖地。夏は羊蹄山を望むラフティングやハイキングが楽しめます。"],
+          ["札幌・小樽", "2月上旬の「さっぽろ雪まつり」と、石造り倉庫が並ぶ小樽運河。味噌ラーメンや海鮮など食の楽しみも豊富です。"]
+        ],
+        "season": "花と丘の風景は6月〜8月、雪とウィンタースポーツは12月〜3月。紅葉は9月中旬に大雪山から始まります。",
+        "access": "東京（羽田）から新千歳空港まで約1時間30分。空港から札幌へは快速列車で約40分です。",
+        "stay": "4〜7日。1回の旅では、道央・道東など1〜2エリアに絞るのがおすすめ。",
+        "tip": "地図で見るより距離があります。札幌から富良野まで車で約2時間、知床までは約6時間。冬の雪道運転に慣れていない場合は、鉄道やバスを利用しましょう。"
+      },
+      "en": {
+        "lead": "Flower-covered hills in summer, powder snow in winter: a northern land that changes with every season.",
+        "intro": "Covering about a fifth of Japan's land area, Hokkaido is all wide skies, straight roads and untouched nature. Summers are cool and winters bring deep snow. The sights are far apart, so plan around one or two areas.",
+        "h": [
+          ["Furano and Biei", "Lavender fields that peak in mid-July, and the \"patchwork hills\" where crops paint patterns across the land. Biei's Blue Pond is another favourite."],
+          ["Shiretoko", "A peninsula inscribed as a World Natural Heritage site in 2005. In summer, walk the Shiretoko Five Lakes or take a sightseeing boat; in winter, see drift ice on the Sea of Okhotsk."],
+          ["Niseko", "A powder-snow mecca that draws skiers from around the world. In summer, go rafting or hiking with views of Mt. Yotei."],
+          ["Sapporo and Otaru", "The Sapporo Snow Festival in early February, and Otaru's canal lined with stone warehouses. Miso ramen and fresh seafood are part of the pleasure."]
+        ],
+        "season": "June to August for flowers and rolling hills; December to March for snow and winter sports. Autumn colours begin in the Daisetsuzan mountains in mid-September.",
+        "access": "About 1 hour 30 minutes from Tokyo (Haneda) to New Chitose Airport. From the airport, a rapid train reaches Sapporo in about 40 minutes.",
+        "stay": "4–7 days. For a single trip, focus on one or two areas, such as central or eastern Hokkaido.",
+        "tip": "Distances are greater than they look on the map: about 2 hours by car from Sapporo to Furano, and about 6 hours to Shiretoko. If you are not used to driving on snow, take trains and buses in winter."
+      },
+      "zh-Hans": {
+        "lead": "夏有花海丘陵，冬有粉雪。四季各有不同面貌的北方大地。",
+        "intro": "北海道约占日本国土面积的五分之一，辽阔的天空、笔直的道路和原始的自然是它的魅力所在。夏季凉爽，冬季积雪深厚。各景点相距较远，建议锁定区域来规划行程。",
+        "h": [
+          ["富良野、美瑛", "7月中旬迎来盛花期的薰衣草田，以及农田拼出图案的“拼布之丘”。美瑛的“青池”也很受欢迎。"],
+          ["知床", "2005年被列入世界自然遗产的半岛。夏季可漫步知床五湖或乘坐观光船，冬季可以看到鄂霍次克海的流冰。"],
+          ["二世谷", "吸引全球滑雪爱好者的粉雪胜地。夏季可以一边眺望羊蹄山，一边体验漂流和徒步。"],
+          ["札幌、小樽", "2月上旬的“札幌冰雪节”，以及石造仓库林立的小樽运河。味噌拉面、海鲜等美食也十分丰富。"]
+        ],
+        "season": "花田与丘陵风光在6月至8月，雪景与冬季运动在12月至次年3月。红叶9月中旬从大雪山开始。",
+        "access": "从东京（羽田）到新千岁机场约1小时30分钟。从机场乘快速列车到札幌约40分钟。",
+        "stay": "4～7天。一次旅行建议集中在道央、道东等1～2个区域。",
+        "tip": "实际距离比地图上看起来远。从札幌开车到富良野约2小时，到知床约6小时。如果不习惯冬季雪地驾驶，请利用铁路和巴士。"
+      },
+      "zh-Hant": {
+        "lead": "夏有花海丘陵，冬有粉雪。四季各有不同風貌的北方大地。",
+        "intro": "北海道約占日本國土面積的五分之一，遼闊的天空、筆直的道路與原始的自然是它的魅力所在。夏季涼爽，冬季積雪深厚。各景點相距較遠，建議鎖定區域來規劃行程。",
+        "h": [
+          ["富良野、美瑛", "7月中旬迎來盛開期的薰衣草田，以及農田拼出圖案的「拼布之丘」。美瑛的「青池」也很受歡迎。"],
+          ["知床", "2005年登錄為世界自然遺產的半島。夏季可漫步知床五湖或搭乘觀光船，冬季可以看到鄂霍次克海的流冰。"],
+          ["二世谷", "吸引全球滑雪愛好者的粉雪勝地。夏季可以一邊眺望羊蹄山，一邊體驗泛舟與健行。"],
+          ["札幌、小樽", "2月上旬的「札幌雪祭」，以及石造倉庫林立的小樽運河。味噌拉麵、海鮮等美食也十分豐富。"]
+        ],
+        "season": "花田與丘陵風光在6月至8月，雪景與冬季運動在12月至隔年3月。紅葉9月中旬從大雪山開始。",
+        "access": "從東京（羽田）到新千歲機場約1小時30分鐘。從機場搭快速列車到札幌約40分鐘。",
+        "stay": "4～7天。一次旅行建議集中在道央、道東等1～2個區域。",
+        "tip": "實際距離比地圖上看起來遠。從札幌開車到富良野約2小時，到知床約6小時。如果不習慣冬季雪地駕駛，請利用鐵路與巴士。"
+      },
+      "fr": {
+        "lead": "Collines en fleurs l'été, neige poudreuse l'hiver : une terre du Nord qui change à chaque saison.",
+        "intro": "Hokkaido, qui couvre environ un cinquième de la superficie du Japon, séduit par ses grands ciels, ses routes rectilignes et sa nature intacte. Les étés y sont frais et les hivers très enneigés. Les sites sont éloignés les uns des autres : mieux vaut organiser son voyage autour d'une ou deux zones.",
+        "h": [
+          ["Furano et Biei", "Des champs de lavande à leur apogée mi-juillet, et les « collines en patchwork » où les cultures dessinent des motifs. L'Étang bleu de Biei est lui aussi très apprécié."],
+          ["Shiretoko", "Une péninsule inscrite au patrimoine naturel mondial en 2005. L'été, promenade aux cinq lacs de Shiretoko ou sortie en bateau ; l'hiver, glaces dérivantes sur la mer d'Okhotsk."],
+          ["Niseko", "Un haut lieu de la poudreuse qui attire des skieurs du monde entier. L'été, rafting et randonnée avec vue sur le mont Yotei."],
+          ["Sapporo et Otaru", "Le Festival de la neige de Sapporo début février, et le canal d'Otaru bordé d'entrepôts en pierre. Ramen au miso et fruits de mer font partie du plaisir."]
+        ],
+        "season": "De juin à août pour les fleurs et les collines ; de décembre à mars pour la neige et les sports d'hiver. Les couleurs d'automne débutent mi-septembre dans le massif du Daisetsuzan.",
+        "access": "Environ 1 h 30 de Tokyo (Haneda) à l'aéroport de New Chitose. De l'aéroport, un train rapide rejoint Sapporo en 40 minutes environ.",
+        "stay": "4 à 7 jours. Pour un seul voyage, concentrez-vous sur une ou deux zones, comme le centre ou l'est de Hokkaido.",
+        "tip": "Les distances sont plus grandes qu'elles n'y paraissent sur la carte : environ 2 h de route de Sapporo à Furano, et environ 6 h jusqu'à Shiretoko. Si vous n'avez pas l'habitude de conduire sur la neige, préférez le train et le bus en hiver."
+      },
+      "es": {
+        "lead": "Colinas en flor en verano, nieve polvo en invierno: una tierra del norte que cambia con cada estación.",
+        "intro": "Hokkaido, que ocupa cerca de una quinta parte de la superficie de Japón, es todo cielos amplios, carreteras rectas y naturaleza intacta. Los veranos son frescos y los inviernos traen mucha nieve. Los lugares de interés están muy separados, así que conviene planificar el viaje en torno a una o dos zonas.",
+        "h": [
+          ["Furano y Biei", "Campos de lavanda que alcanzan su esplendor a mediados de julio y las «colinas de patchwork», donde los cultivos dibujan figuras sobre el terreno. El Estanque Azul de Biei es otro favorito."],
+          ["Shiretoko", "Una península inscrita como Patrimonio Natural de la Humanidad en 2005. En verano, pasea por los Cinco Lagos de Shiretoko o sube a un barco turístico; en invierno, contempla el hielo a la deriva en el mar de Ojotsk."],
+          ["Niseko", "Una meca de la nieve polvo que atrae a esquiadores de todo el mundo. En verano se puede hacer rafting o senderismo con vistas al monte Yotei."],
+          ["Sapporo y Otaru", "El Festival de la Nieve de Sapporo a principios de febrero y el canal de Otaru, bordeado de almacenes de piedra. El ramen de miso y el marisco fresco forman parte del placer."]
+        ],
+        "season": "De junio a agosto para las flores y las colinas; de diciembre a marzo para la nieve y los deportes de invierno. Los colores de otoño empiezan a mediados de septiembre en las montañas Daisetsuzan.",
+        "access": "Alrededor de 1 hora y 30 minutos de Tokio (Haneda) al aeropuerto de New Chitose. Desde el aeropuerto, un tren rápido llega a Sapporo en unos 40 minutos.",
+        "stay": "De 4 a 7 días. En un solo viaje, céntrate en una o dos zonas, como el centro o el este de Hokkaido.",
+        "tip": "Las distancias son mayores de lo que parecen en el mapa: unas 2 horas en coche de Sapporo a Furano y unas 6 horas hasta Shiretoko. Si no tienes costumbre de conducir sobre nieve, usa trenes y autobuses en invierno."
+      }
+    },
+    {
+      "slug": "okinawa",
+      "key": "d4",
+      "img": "okinawa.jpg",
+      "links": [
+        { "ja": ["おきなわ物語（沖縄観光情報）", "https://www.okinawastory.jp/"], "intl": ["VISIT OKINAWA JAPAN (Official Travel Guide)", "https://visitokinawajapan.com/"] }
+      ],
+      "ja": {
+        "name": "沖縄・慶良間諸島",
+        "area": "南西諸島",
+        "lead": "透きとおる海と、琉球の文化に出会う南の島。",
+        "intro": "亜熱帯の気候に包まれた沖縄は、かつて琉球王国として独自の文化を育んだ島々です。那覇を拠点に、船で渡る慶良間の海、本島北部の自然、さらに南の八重山へと旅が広がります。",
+        "h": [
+          ["慶良間諸島", "那覇の泊港から高速船で渡嘉敷島へ約35分、座間味島へ約50分。国立公園の海ではウミガメと泳げることもあります。"],
+          ["首里城公園", "琉球王国の王城跡。正殿は2019年の火災で焼失し、復元が進められてきました。公開状況は公式サイトで確認を。"],
+          ["沖縄美ら海水族館", "ジンベエザメやマンタが泳ぐ大水槽「黒潮の海」で知られる水族館。那覇から車で約2時間、本島北部にあります。"],
+          ["石垣島・竹富島", "那覇から飛行機で約1時間の八重山諸島。川平湾の眺めと、赤瓦の家並みを水牛車で巡る竹富島が待っています。"]
+        ],
+        "season": "海で泳げるのは4月〜10月ごろ。梅雨は5月上旬〜6月下旬、台風は7月〜10月に多くなります。1月〜3月はホエールウォッチングの季節です。",
+        "access": "東京（羽田）から那覇まで約2時間45分。那覇空港から市の中心部へはモノレール「ゆいレール」で約15分です。",
+        "stay": "3〜5日。離島に泊まるなら、もう1〜2日。",
+        "tip": "台風や高波で船が欠航することがあるため、離島へ渡る日は旅の前半に。日差しが強いので日焼け対策を忘れず、サンゴには触れないようにしましょう。"
+      },
+      "en": {
+        "lead": "Southern islands of crystal-clear sea and Ryukyu culture.",
+        "intro": "Wrapped in a subtropical climate, Okinawa is a chain of islands that developed its own culture as the Ryukyu Kingdom. With Naha as your base, the trip opens out to the Kerama seas by boat, the nature of the main island's north, and the Yaeyama Islands further south.",
+        "h": [
+          ["Kerama Islands", "From Tomari Port in Naha, a high-speed boat reaches Tokashiki Island in about 35 minutes and Zamami Island in about 50. In these national park waters you may find yourself swimming with sea turtles."],
+          ["Shurijo Castle Park", "The site of the Ryukyu Kingdom's royal castle. The main hall was lost to fire in 2019 and has been under reconstruction; check the official site for what is currently open."],
+          ["Okinawa Churaumi Aquarium", "Famous for the giant Kuroshio Sea tank, where whale sharks and manta rays swim. It is in the north of the main island, about 2 hours by car from Naha."],
+          ["Ishigaki and Taketomi Islands", "The Yaeyama Islands, about an hour's flight from Naha. Expect the view over Kabira Bay and, on Taketomi, a water buffalo cart ride past red-tiled houses."]
+        ],
+        "season": "You can swim in the sea from around April to October. The rainy season runs from early May to late June, and typhoons are most common from July to October. January to March is whale-watching season.",
+        "access": "About 2 hours 45 minutes from Tokyo (Haneda) to Naha. From Naha Airport, the Yui Rail monorail reaches the city centre in about 15 minutes.",
+        "stay": "3–5 days. Add a day or two if you stay on an outer island.",
+        "tip": "Boats can be cancelled because of typhoons or high waves, so schedule island crossings early in your trip. The sun is strong: bring sun protection, and never touch the coral."
+      },
+      "zh-Hans": {
+        "lead": "邂逅清澈的大海与琉球文化的南方岛屿。",
+        "intro": "属亚热带气候的冲绳，曾作为琉球王国孕育出独特的文化。以那霸为据点，可以乘船前往庆良间的大海，探访本岛北部的自然，再向南延伸到八重山群岛。",
+        "h": [
+          ["庆良间群岛", "从那霸泊港乘高速船，到渡嘉敷岛约35分钟，到座间味岛约50分钟。在这片国立公园的海域，有时还能与海龟同游。"],
+          ["首里城公园", "琉球王国的王城遗址。正殿在2019年的火灾中被烧毁，此后一直在进行复原。开放情况请查看官方网站。"],
+          ["冲绳美丽海水族馆", "以鲸鲨和蝠鲼畅游的大水槽“黑潮之海”而闻名。位于本岛北部，从那霸开车约2小时。"],
+          ["石垣岛、竹富岛", "从那霸乘飞机约1小时的八重山群岛。川平湾的景色，以及乘水牛车游览红瓦民居的竹富岛，都在等着你。"]
+        ],
+        "season": "大约4月至10月可以下海游泳。梅雨在5月上旬至6月下旬，台风多发于7月至10月。1月至3月是观鲸季节。",
+        "access": "从东京（羽田）到那霸约2小时45分钟。从那霸机场乘单轨电车“Yui Rail”到市中心约15分钟。",
+        "stay": "3～5天。若要在离岛住宿，可再加1～2天。",
+        "tip": "台风或大浪可能导致船班停航，前往离岛的日程请安排在旅程前半段。阳光强烈，别忘了防晒，也请不要触碰珊瑚。"
+      },
+      "zh-Hant": {
+        "lead": "邂逅清澈大海與琉球文化的南方島嶼。",
+        "intro": "屬亞熱帶氣候的沖繩，曾以琉球王國之姿孕育出獨特的文化。以那霸為據點，可以搭船前往慶良間的大海，探訪本島北部的自然，再向南延伸到八重山群島。",
+        "h": [
+          ["慶良間群島", "從那霸泊港搭高速船，到渡嘉敷島約35分鐘，到座間味島約50分鐘。在這片國立公園的海域，有時還能與海龜同游。"],
+          ["首里城公園", "琉球王國的王城遺址。正殿在2019年的火災中燒毀，此後持續進行復原。開放情況請查看官方網站。"],
+          ["沖繩美麗海水族館", "以鯨鯊與鬼蝠魟悠游的大水槽「黑潮之海」聞名。位於本島北部，從那霸開車約2小時。"],
+          ["石垣島、竹富島", "從那霸搭飛機約1小時的八重山群島。川平灣的景色，以及搭水牛車遊覽紅瓦民居的竹富島，都在等著你。"]
+        ],
+        "season": "大約4月至10月可以下海游泳。梅雨在5月上旬至6月下旬，颱風多發於7月至10月。1月至3月是賞鯨季節。",
+        "access": "從東京（羽田）到那霸約2小時45分鐘。從那霸機場搭單軌電車「Yui Rail」到市中心約15分鐘。",
+        "stay": "3～5天。若要在離島住宿，可再加1～2天。",
+        "tip": "颱風或大浪可能導致船班停航，前往離島的日程請安排在旅程前半段。陽光強烈，別忘了防曬，也請不要觸碰珊瑚。"
+      },
+      "fr": {
+        "lead": "Des îles du Sud entre mer cristalline et culture des Ryukyu.",
+        "intro": "Baigné par un climat subtropical, Okinawa est un chapelet d'îles qui a développé sa propre culture à l'époque du royaume des Ryukyu. Depuis Naha, le voyage s'ouvre sur les eaux des Kerama en bateau, la nature du nord de l'île principale et, plus au sud, les îles Yaeyama.",
+        "h": [
+          ["Îles Kerama", "Depuis le port de Tomari à Naha, un bateau rapide rejoint l'île de Tokashiki en 35 minutes environ et celle de Zamami en 50 minutes environ. Dans ces eaux classées parc national, il arrive de nager avec des tortues marines."],
+          ["Parc du château de Shuri", "Le site du château royal des Ryukyu. Le pavillon principal a été détruit par un incendie en 2019 et fait l'objet d'une reconstruction ; consultez le site officiel pour connaître les zones ouvertes."],
+          ["Aquarium Churaumi d'Okinawa", "Célèbre pour son immense bassin « Mer de Kuroshio », où évoluent requins-baleines et raies manta. Il se trouve au nord de l'île principale, à environ 2 h de route de Naha."],
+          ["Îles Ishigaki et Taketomi", "Les îles Yaeyama, à environ une heure de vol de Naha. Au programme : la vue sur la baie de Kabira et, à Taketomi, une balade en char à buffle entre les maisons aux toits de tuiles rouges."]
+        ],
+        "season": "La baignade est possible d'avril à octobre environ. La saison des pluies va de début mai à fin juin, et les typhons sont plus fréquents de juillet à octobre. De janvier à mars, c'est la saison d'observation des baleines.",
+        "access": "Environ 2 h 45 de Tokyo (Haneda) à Naha. Depuis l'aéroport de Naha, le monorail Yui Rail rejoint le centre-ville en 15 minutes environ.",
+        "stay": "3 à 5 jours. Ajoutez un jour ou deux si vous logez sur une île éloignée.",
+        "tip": "Les bateaux peuvent être annulés en cas de typhon ou de forte houle : prévoyez les traversées en début de séjour. Le soleil est fort, pensez à vous protéger, et ne touchez jamais les coraux."
+      },
+      "es": {
+        "lead": "Islas del sur de mar cristalino y cultura de Ryukyu.",
+        "intro": "Envuelta en un clima subtropical, Okinawa es una cadena de islas que desarrolló una cultura propia como Reino de Ryukyu. Con Naha como base, el viaje se abre hacia las aguas de las Kerama en barco, la naturaleza del norte de la isla principal y, más al sur, las islas Yaeyama.",
+        "h": [
+          ["Islas Kerama", "Desde el puerto de Tomari, en Naha, una lancha rápida llega a la isla de Tokashiki en unos 35 minutos y a la de Zamami en unos 50. En estas aguas de parque nacional es posible nadar junto a tortugas marinas."],
+          ["Parque del Castillo de Shuri", "El emplazamiento del castillo real del Reino de Ryukyu. El pabellón principal se perdió en un incendio en 2019 y ha estado en reconstrucción; consulta el sitio oficial para saber qué zonas están abiertas."],
+          ["Acuario Churaumi de Okinawa", "Famoso por el enorme tanque «Mar de Kuroshio», donde nadan tiburones ballena y mantarrayas. Está en el norte de la isla principal, a unas 2 horas en coche de Naha."],
+          ["Islas Ishigaki y Taketomi", "Las islas Yaeyama, a aproximadamente una hora de vuelo de Naha. Te esperan la vista de la bahía de Kabira y, en Taketomi, un paseo en carro de búfalo entre casas de tejas rojas."]
+        ],
+        "season": "Se puede nadar en el mar aproximadamente de abril a octubre. La temporada de lluvias va de principios de mayo a finales de junio, y los tifones son más frecuentes de julio a octubre. De enero a marzo es temporada de avistamiento de ballenas.",
+        "access": "Unas 2 horas y 45 minutos de Tokio (Haneda) a Naha. Desde el aeropuerto de Naha, el monorraíl Yui Rail llega al centro en unos 15 minutos.",
+        "stay": "De 3 a 5 días. Añade uno o dos días si te alojas en una isla menor.",
+        "tip": "Los barcos pueden cancelarse por tifones u oleaje, así que programa las travesías a las islas al principio del viaje. El sol es fuerte: lleva protección solar y no toques nunca el coral."
+      }
+    },
+    {
+      "slug": "setouchi",
+      "key": "d5",
+      "img": "setouchi.jpg",
+      "links": [
+        { "ja": ["ベネッセアートサイト直島", "https://benesse-artsite.jp/"], "intl": ["Benesse Art Site Naoshima", "https://benesse-artsite.jp/en/"] },
+        { "ja": ["SHIMAP（しまなみ海道観光マップ）", "https://shimanami-cycle.or.jp/"], "intl": ["Shimanami Kaido Cycling (SHIMAP)", "https://shimanami-cycle.or.jp/cycling/en/"] }
+      ],
+      "ja": {
+        "name": "瀬戸内",
+        "area": "中国・四国",
+        "lead": "穏やかな海と島々を、橋と船でつないで旅する。",
+        "intro": "本州・四国・九州に囲まれた瀬戸内海には、大小さまざまな島が浮かびます。雨が少なく温暖な気候で、海辺の町には古い港や町並みが残ります。自転車と船、そして現代アートがこの地域の旅の主役です。",
+        "h": [
+          ["しまなみ海道", "広島県の尾道と愛媛県の今治を、6つの島と橋で結ぶ約70kmのサイクリングロード。レンタサイクルは途中の島で返却できます。"],
+          ["直島", "安藤忠雄が設計した地中美術館や、海辺に置かれた草間彌生の「南瓜」で知られるアートの島。岡山県の宇野港からフェリーで約20分です。"],
+          ["宮島・嚴島神社", "満潮時には海に浮かんで見える朱色の大鳥居と社殿。干潮時には鳥居のそばまで歩けます。世界遺産に登録されています。"],
+          ["倉敷美観地区", "柳並木の堀に沿って白壁の蔵屋敷が続く町並み。日本初の私立西洋美術館、大原美術館もここにあります。"]
+        ],
+        "season": "過ごしやすいのは春（3月〜5月）と秋（10月〜11月）。3年に1度開かれる瀬戸内国際芸術祭の年は、島々がいっそう賑わいます。",
+        "access": "東京から新幹線で岡山まで約3時間20分、広島まで約4時間。島へは各地の港からフェリーや高速船で渡ります。",
+        "stay": "3〜5日。直島としまなみ海道の両方を巡るなら4日以上がおすすめ。",
+        "tip": "美術館は月曜休館が多く、地中美術館は事前予約制です。フェリーは本数が限られるので、帰りの時刻を先に確かめておきましょう。"
+      },
+      "en": {
+        "lead": "Travel a calm sea and its islands, linked by bridges and boats.",
+        "intro": "The Seto Inland Sea, enclosed by Honshu, Shikoku and Kyushu, is dotted with islands large and small. The climate is mild with little rain, and old harbours and streetscapes survive in the seaside towns. Bicycles, boats and contemporary art are the stars of a trip here.",
+        "h": [
+          ["Shimanami Kaido", "A cycling route of about 70 km linking Onomichi in Hiroshima Prefecture with Imabari in Ehime Prefecture across six islands and their bridges. Rental bikes can be returned on islands along the way."],
+          ["Naoshima", "An art island known for the Chichu Art Museum, designed by Tadao Ando, and Yayoi Kusama's Pumpkin on the shore. It is about 20 minutes by ferry from Uno Port in Okayama Prefecture."],
+          ["Miyajima and Itsukushima Shrine", "A vermilion torii gate and shrine that seem to float on the sea at high tide. At low tide you can walk right up to the gate. It is a World Heritage site."],
+          ["Kurashiki Bikan Historical Quarter", "White-walled storehouses line a willow-fringed canal. The Ohara Museum of Art, Japan's first private museum of Western art, is here too."]
+        ],
+        "season": "Spring (March to May) and autumn (October to November) are the most comfortable. In years when the Setouchi Triennale is held, once every three years, the islands are livelier still.",
+        "access": "By Shinkansen from Tokyo: about 3 hours 20 minutes to Okayama, about 4 hours to Hiroshima. Ferries and high-speed boats run to the islands from ports around the region.",
+        "stay": "3–5 days. Allow at least 4 days to cover both Naoshima and the Shimanami Kaido.",
+        "tip": "Many museums close on Mondays, and the Chichu Art Museum requires advance reservations. Ferries are limited, so check your return time first."
+      },
+      "zh-Hans": {
+        "lead": "以桥与船相连，游走于平静的大海和岛屿之间。",
+        "intro": "被本州、四国、九州环抱的濑户内海上，散布着大大小小的岛屿。这里少雨温暖，海边的小镇保留着古老的港口和街景。自行车、船，还有当代艺术，是这片地区旅行的主角。",
+        "h": [
+          ["岛波海道", "连接广岛县尾道与爱媛县今治的自行车道，全长约70公里，经由6座岛屿和桥梁。租借的自行车可以在途中的岛上归还。"],
+          ["直岛", "以安藤忠雄设计的地中美术馆，以及海边草间弥生的《南瓜》闻名的艺术之岛。从冈山县宇野港乘渡轮约20分钟。"],
+          ["宫岛、严岛神社", "涨潮时，朱红色的大鸟居和社殿仿佛浮在海上；退潮时可以走到鸟居旁边。已被列入世界遗产。"],
+          ["仓敷美观地区", "柳树成荫的水渠两旁，白墙仓库连绵成片。日本第一座私立西洋美术馆——大原美术馆也在这里。"]
+        ],
+        "season": "最舒适的是春季（3月至5月）和秋季（10月至11月）。每三年举办一次的濑户内国际艺术节期间，各岛更加热闹。",
+        "access": "从东京乘新干线到冈山约3小时20分钟，到广岛约4小时。前往各岛可从各地港口乘渡轮或高速船。",
+        "stay": "3～5天。若想同时游览直岛和岛波海道，建议4天以上。",
+        "tip": "美术馆多在周一休馆，地中美术馆需提前预约。渡轮班次有限，请先确认回程时间。"
+      },
+      "zh-Hant": {
+        "lead": "以橋與船相連，遊走於平靜的大海與島嶼之間。",
+        "intro": "被本州、四國、九州環抱的瀨戶內海上，散布著大大小小的島嶼。這裡少雨溫暖，海邊的小鎮保留著古老的港口與街景。自行車、船，還有當代藝術，是這片地區旅行的主角。",
+        "h": [
+          ["島波海道", "連接廣島縣尾道與愛媛縣今治的自行車道，全長約70公里，途經6座島嶼與橋梁。租借的自行車可以在途中的島上歸還。"],
+          ["直島", "以安藤忠雄設計的地中美術館，以及海邊草間彌生的《南瓜》聞名的藝術之島。從岡山縣宇野港搭渡輪約20分鐘。"],
+          ["宮島、嚴島神社", "漲潮時，朱紅色的大鳥居與社殿彷彿浮在海上；退潮時可以走到鳥居旁邊。已登錄為世界遺產。"],
+          ["倉敷美觀地區", "柳樹成蔭的水道兩旁，白牆倉庫連綿成片。日本第一座私立西洋美術館——大原美術館也在這裡。"]
+        ],
+        "season": "最舒適的是春季（3月至5月）與秋季（10月至11月）。每三年舉辦一次的瀨戶內國際藝術祭期間，各島更加熱鬧。",
+        "access": "從東京搭新幹線到岡山約3小時20分鐘，到廣島約4小時。前往各島可從各地港口搭渡輪或高速船。",
+        "stay": "3～5天。若想同時遊覽直島與島波海道，建議4天以上。",
+        "tip": "美術館多在週一休館，地中美術館需事先預約。渡輪班次有限，請先確認回程時間。"
+      },
+      "fr": {
+        "lead": "Voyager sur une mer paisible, d'île en île, par les ponts et les bateaux.",
+        "intro": "La mer intérieure de Seto, entourée par Honshu, Shikoku et Kyushu, est parsemée d'îles de toutes tailles. Le climat y est doux et peu pluvieux, et les villes côtières ont conservé leurs vieux ports et leurs rues d'autrefois. Le vélo, le bateau et l'art contemporain sont les vedettes du voyage.",
+        "h": [
+          ["Shimanami Kaido", "Un itinéraire cyclable d'environ 70 km qui relie Onomichi (préfecture de Hiroshima) à Imabari (préfecture d'Ehime) en traversant six îles et leurs ponts. Les vélos de location peuvent être rendus sur les îles en cours de route."],
+          ["Naoshima", "Une île dédiée à l'art, connue pour le Chichu Art Museum conçu par Tadao Ando et pour la Citrouille de Yayoi Kusama posée sur le rivage. À environ 20 minutes de ferry du port d'Uno, dans la préfecture d'Okayama."],
+          ["Miyajima et le sanctuaire d'Itsukushima", "Un grand torii vermillon et un sanctuaire qui semblent flotter sur la mer à marée haute. À marée basse, on peut marcher jusqu'au torii. Le site est inscrit au patrimoine mondial."],
+          ["Quartier historique Bikan de Kurashiki", "Des entrepôts aux murs blancs bordent un canal ombragé de saules. On y trouve aussi le musée d'art Ohara, premier musée privé d'art occidental du Japon."]
+        ],
+        "season": "Le printemps (mars à mai) et l'automne (octobre et novembre) sont les saisons les plus agréables. Les années de la Triennale de Setouchi, organisée tous les trois ans, les îles sont encore plus animées.",
+        "access": "En Shinkansen depuis Tokyo : environ 3 h 20 jusqu'à Okayama, environ 4 h jusqu'à Hiroshima. Ferries et bateaux rapides desservent les îles depuis les ports de la région.",
+        "stay": "3 à 5 jours. Comptez au moins 4 jours pour voir à la fois Naoshima et la Shimanami Kaido.",
+        "tip": "De nombreux musées ferment le lundi, et le Chichu Art Museum exige une réservation préalable. Les ferries sont peu nombreux : vérifiez d'abord l'horaire du retour."
+      },
+      "es": {
+        "lead": "Viaja por un mar en calma y sus islas, unidas por puentes y barcos.",
+        "intro": "El mar interior de Seto, rodeado por Honshu, Shikoku y Kyushu, está salpicado de islas grandes y pequeñas. El clima es templado y poco lluvioso, y en los pueblos costeros perduran antiguos puertos y calles de otra época. La bicicleta, el barco y el arte contemporáneo son los protagonistas del viaje.",
+        "h": [
+          ["Shimanami Kaido", "Una ruta ciclista de unos 70 km que une Onomichi, en la prefectura de Hiroshima, con Imabari, en la de Ehime, a través de seis islas y sus puentes. Las bicicletas de alquiler pueden devolverse en las islas del recorrido."],
+          ["Naoshima", "Una isla del arte conocida por el Museo de Arte Chichu, diseñado por Tadao Ando, y por la Calabaza de Yayoi Kusama junto al mar. Está a unos 20 minutos en ferri del puerto de Uno, en la prefectura de Okayama."],
+          ["Miyajima y el santuario de Itsukushima", "Un gran torii bermellón y un santuario que parecen flotar sobre el mar con la marea alta. Con la marea baja se puede caminar hasta el torii. Es Patrimonio de la Humanidad."],
+          ["Barrio histórico Bikan de Kurashiki", "Almacenes de paredes blancas bordean un canal flanqueado por sauces. Aquí está también el Museo de Arte Ohara, el primer museo privado de arte occidental de Japón."]
+        ],
+        "season": "La primavera (de marzo a mayo) y el otoño (octubre y noviembre) son las épocas más agradables. Los años en que se celebra la Trienal de Setouchi, cada tres años, las islas están aún más animadas.",
+        "access": "En Shinkansen desde Tokio: unas 3 horas y 20 minutos hasta Okayama y unas 4 horas hasta Hiroshima. A las islas se llega en ferri o lancha rápida desde los puertos de la región.",
+        "stay": "De 3 a 5 días. Reserva al menos 4 días para recorrer tanto Naoshima como la Shimanami Kaido.",
+        "tip": "Muchos museos cierran los lunes, y el Museo de Arte Chichu exige reserva previa. Hay pocos ferris, así que comprueba primero el horario de vuelta."
+      }
+    },
+    {
+      "slug": "tohoku",
+      "key": "d6",
+      "img": "tohoku.jpg",
+      "links": [
+        { "ja": ["旅東北（東北観光推進機構）", "https://www.tohokukanko.jp/"], "intl": ["TRAVEL TO TOHOKU (Official Tourism Website)", "https://www.tohokukanko.jp/en/"] }
+      ],
+      "ja": {
+        "name": "東北",
+        "area": "本州北部",
+        "lead": "渓流と雪と湯けむり。静かな日本の原風景へ。",
+        "intro": "本州の北に広がる東北6県は、深い森と山、ひなびた温泉、力強い夏祭りの土地です。大都市に比べて旅行者が少なく、ゆっくりと自然や暮らしの風景に向き合えます。",
+        "h": [
+          ["奥入瀬渓流・十和田湖", "十和田湖から流れ出る約14kmの渓流。苔むした岩と滝を眺めながら歩ける遊歩道が、流れに沿って続きます。"],
+          ["蔵王", "冬は「スノーモンスター」と呼ばれる樹氷がゲレンデを覆い、1月〜2月が見頃です。夏はエメラルド色の火口湖「御釜」へ。"],
+          ["松島", "260あまりの島々が浮かぶ日本三景のひとつ。遊覧船で湾を巡り、伊達政宗ゆかりの瑞巌寺を訪ねます。"],
+          ["銀山温泉", "川の両岸に大正〜昭和初期の木造旅館が並ぶ温泉街。ガス灯がともる夕暮れと雪の季節は、とりわけ風情があります。"]
+        ],
+        "season": "新緑は5月〜6月、夏祭りは8月上旬、紅葉は10月、樹氷は1月〜2月。季節ごとに目的地を選ぶのがコツです。",
+        "access": "東京から新幹線で仙台まで約1時間30分、新青森まで約3時間10分です。",
+        "stay": "3〜5日。県をまたぐ移動に時間がかかるので、1回の旅では2〜3県に絞ると無理がありません。",
+        "tip": "駅から先のバスは本数が少ないので、時刻表を事前に確認するか、レンタカーを利用しましょう。8月上旬の祭りの時期は、宿を早めに予約してください。"
+      },
+      "en": {
+        "lead": "Mountain streams, snow and hot-spring steam: Japan's quiet heartland.",
+        "intro": "The six prefectures of Tohoku, in the north of Honshu, are a land of deep forests and mountains, rustic hot springs and powerful summer festivals. There are fewer travellers than in the big cities, so you can take your time with the landscapes and local life.",
+        "h": [
+          ["Oirase Gorge and Lake Towada", "A mountain stream that flows about 14 km from Lake Towada. A walking trail follows the water past mossy rocks and waterfalls."],
+          ["Zao", "In winter, frost-covered trees known as \"snow monsters\" blanket the slopes, at their best in January and February. In summer, head for Okama, the emerald crater lake."],
+          ["Matsushima", "One of Japan's Three Scenic Views, a bay scattered with more than 260 islands. Tour it by sightseeing boat and visit Zuiganji, the temple associated with Date Masamune."],
+          ["Ginzan Onsen", "A hot-spring town where wooden inns from the Taisho and early Showa eras line both banks of a river. It is especially atmospheric at dusk, when the gas lamps are lit, and in the snow."]
+        ],
+        "season": "Fresh greenery in May and June, summer festivals in early August, autumn leaves in October, snow monsters in January and February. The trick is to pick your destination by season.",
+        "access": "By Shinkansen from Tokyo: about 1 hour 30 minutes to Sendai and about 3 hours 10 minutes to Shin-Aomori.",
+        "stay": "3–5 days. Travel between prefectures takes time, so two or three prefectures per trip is a comfortable pace.",
+        "tip": "Buses beyond the stations are infrequent, so check timetables in advance or rent a car. Book accommodation early for the festival period in early August."
+      },
+      "zh-Hans": {
+        "lead": "溪流、白雪与温泉的热气。走进宁静的日本原风景。",
+        "intro": "位于本州北部的东北六县，拥有幽深的森林与群山、古朴的温泉和气势磅礴的夏日祭典。与大城市相比游客较少，可以慢慢感受自然与生活的风景。",
+        "h": [
+          ["奥入濑溪流、十和田湖", "从十和田湖流出的溪流，全长约14公里。步道沿溪而行，一路可欣赏布满青苔的岩石和瀑布。"],
+          ["藏王", "冬季，被称为“雪怪”的树冰覆盖雪场，1月至2月是最佳观赏期。夏季可前往翡翠色的火山口湖“御釜”。"],
+          ["松岛", "日本三景之一，海湾中散布着260多座岛屿。可乘游览船环游海湾，并参观与伊达政宗有渊源的瑞岩寺。"],
+          ["银山温泉", "河两岸排列着大正至昭和初期木造旅馆的温泉街。煤气灯亮起的黄昏和雪季尤其有韵味。"]
+        ],
+        "season": "新绿在5月至6月，夏日祭典在8月上旬，红叶在10月，树冰在1月至2月。诀窍是按季节选择目的地。",
+        "access": "从东京乘新干线到仙台约1小时30分钟，到新青森约3小时10分钟。",
+        "stay": "3～5天。跨县移动比较费时，一次旅行集中在2～3个县会比较轻松。",
+        "tip": "从车站出发的巴士班次较少，请事先确认时刻表，或者租车出行。8月上旬的祭典期间，请尽早预订住宿。"
+      },
+      "zh-Hant": {
+        "lead": "溪流、白雪與溫泉的熱氣。走進寧靜的日本原風景。",
+        "intro": "位於本州北部的東北六縣，擁有幽深的森林與群山、古樸的溫泉與氣勢磅礴的夏日祭典。與大城市相比遊客較少，可以慢慢感受自然與生活的風景。",
+        "h": [
+          ["奧入瀨溪流、十和田湖", "從十和田湖流出的溪流，全長約14公里。步道沿溪而行，一路可欣賞布滿青苔的岩石與瀑布。"],
+          ["藏王", "冬季，被稱為「雪怪」的樹冰覆蓋雪場，1月至2月是最佳觀賞期。夏季可前往翡翠色的火山口湖「御釜」。"],
+          ["松島", "日本三景之一，海灣中散布著260多座島嶼。可搭遊覽船環遊海灣，並參觀與伊達政宗有淵源的瑞巖寺。"],
+          ["銀山溫泉", "河兩岸排列著大正至昭和初期木造旅館的溫泉街。瓦斯燈亮起的黃昏與雪季尤其有韻味。"]
+        ],
+        "season": "新綠在5月至6月，夏日祭典在8月上旬，紅葉在10月，樹冰在1月至2月。訣竅是依季節選擇目的地。",
+        "access": "從東京搭新幹線到仙台約1小時30分鐘，到新青森約3小時10分鐘。",
+        "stay": "3～5天。跨縣移動比較費時，一次旅行集中在2～3個縣會比較輕鬆。",
+        "tip": "從車站出發的巴士班次較少，請事先確認時刻表，或是租車出遊。8月上旬的祭典期間，請儘早預訂住宿。"
+      },
+      "fr": {
+        "lead": "Torrents, neige et vapeurs des sources chaudes : le Japon paisible d'autrefois.",
+        "intro": "Les six préfectures du Tohoku, au nord de Honshu, sont une terre de forêts profondes et de montagnes, de sources chaudes rustiques et de grandes fêtes d'été. Moins fréquentée que les grandes villes, la région invite à prendre son temps face aux paysages et à la vie locale.",
+        "h": [
+          ["Gorge d'Oirase et lac Towada", "Un torrent qui s'écoule sur environ 14 km depuis le lac Towada. Un sentier longe l'eau entre rochers moussus et cascades."],
+          ["Zao", "En hiver, les arbres couverts de givre, surnommés « monstres de neige », envahissent les pistes ; ils sont à leur apogée en janvier et février. En été, direction Okama, le lac de cratère émeraude."],
+          ["Matsushima", "L'un des trois plus célèbres panoramas du Japon : une baie parsemée de plus de 260 îles. On la parcourt en bateau avant de visiter le Zuiganji, temple lié à Date Masamune."],
+          ["Ginzan Onsen", "Une station thermale où des auberges en bois des ères Taisho et du début de Showa bordent les deux rives d'une rivière. Le charme est à son comble au crépuscule, à la lueur des réverbères à gaz, et sous la neige."]
+        ],
+        "season": "Verdure nouvelle en mai et juin, fêtes d'été début août, feuillages d'automne en octobre, monstres de neige en janvier et février. L'astuce : choisir sa destination selon la saison.",
+        "access": "En Shinkansen depuis Tokyo : environ 1 h 30 jusqu'à Sendai et environ 3 h 10 jusqu'à Shin-Aomori.",
+        "stay": "3 à 5 jours. Les trajets entre préfectures sont longs : deux ou trois préfectures par voyage constituent un bon rythme.",
+        "tip": "Au-delà des gares, les bus sont rares : consultez les horaires à l'avance ou louez une voiture. Réservez tôt votre hébergement pour la période des fêtes, début août."
+      },
+      "es": {
+        "lead": "Arroyos de montaña, nieve y vapor de aguas termales: el Japón tranquilo de siempre.",
+        "intro": "Las seis prefecturas de Tohoku, en el norte de Honshu, son tierra de bosques profundos y montañas, balnearios rústicos y vibrantes festivales de verano. Hay menos viajeros que en las grandes ciudades, así que se puede disfrutar con calma del paisaje y de la vida local.",
+        "h": [
+          ["Garganta de Oirase y lago Towada", "Un arroyo de montaña que fluye unos 14 km desde el lago Towada. Un sendero acompaña al agua entre rocas cubiertas de musgo y cascadas."],
+          ["Zao", "En invierno, los árboles cubiertos de escarcha, conocidos como «monstruos de nieve», invaden las laderas; su mejor momento es enero y febrero. En verano, visita Okama, el lago de cráter color esmeralda."],
+          ["Matsushima", "Una de las Tres Vistas Más Famosas de Japón: una bahía salpicada de más de 260 islas. Recórrela en barco turístico y visita el Zuiganji, templo vinculado a Date Masamune."],
+          ["Ginzan Onsen", "Un pueblo termal donde posadas de madera de la era Taisho y de principios de la era Showa bordean ambas orillas de un río. Tiene un encanto especial al atardecer, con las farolas de gas encendidas, y con nieve."]
+        ],
+        "season": "Verdor nuevo en mayo y junio, festivales de verano a principios de agosto, hojas de otoño en octubre y monstruos de nieve en enero y febrero. El truco es elegir el destino según la estación.",
+        "access": "En Shinkansen desde Tokio: alrededor de 1 hora y 30 minutos hasta Sendai y unas 3 horas y 10 minutos hasta Shin-Aomori.",
+        "stay": "De 3 a 5 días. Los desplazamientos entre prefecturas llevan tiempo, así que dos o tres prefecturas por viaje es un ritmo cómodo.",
+        "tip": "Más allá de las estaciones hay pocos autobuses, así que consulta los horarios con antelación o alquila un coche. Reserva alojamiento pronto para la época de festivales, a principios de agosto."
+      }
+    }
+  ]
+}
